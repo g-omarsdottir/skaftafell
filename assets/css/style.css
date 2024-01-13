@@ -1,6 +1,6 @@
 /* Google fonts import */
 @import url('https://fonts.googleapis.com/css2?family=Nunito+Sans:wght@500;600;700&family=Roboto:ital,wght@0,300;1,300&display=swap');
-  /*font-family: 'Nunito Sans', sans-serif;
+/*font-family: 'Nunito Sans', sans-serif;
   font-family: 'Roboto', sans-serif;*/
 
 * {
@@ -44,6 +44,10 @@ header {
     width: 100%;
     /*cast shadow - first value 0 for right+left. Second value vertical offset, positiv below, negative above. Third value blur.*/
     box-shadow: 0 3px 3px #ac989d;
+    /* To include navbar toggle in header */
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
 }
 
 header a {
@@ -75,20 +79,50 @@ nav li:hover {
     margin-bottom: 1em;
 }
 
+/* Navbar dropdown toggle style for small screens */
+nav {
+    /* To seperate from parent element: header */
+    position: absolute;
+    /* styles like header*/
+    background-color: #ECF7FB;
+    width: 100%;
+    left: 0;
+    padding: 0 1rem;
+    /* Box-shadow to-do: check if subject to change */
+    box-shadow: 0 3px 3px #ac989d;
+    /* To hide unless toggled, i.e. checkbox input checked */
+    display: none;
+}
+
+/* To toggle when burger menu activated, i.e. checkbox input checked. Tilde to target adjoining nav element.*/
+#navbar-toggle:checked~nav {
+    display: block;
+}
+
+/* To hide the checkbox
+#navbar-toggle {
+    display: none;
+}*/
+
+/* .navbar-toggle-label {
+   to-do: add value
+} */
+
 /* Main content */
 main {
-background-color: #ECF7FB;
-/* Push Footer down */
-flex: 1 0 auto;
+    background-color: #ECF7FB;
+    /* Push Footer down */
+    flex: 1 0 auto;
 }
 
 .active {
     text-decoration: underline;
 }
 
-/* Footer */ 
+/* Footer */
 footer {
     /*background-color: #EAD9DD;*/
     background-color: #ac989d;
-    box-shadow: 0 3px -3px #ac989d; /*doesn't work*/
+    box-shadow: 0 3px -3px #ac989d;
+    /*doesn't work*/
 }
