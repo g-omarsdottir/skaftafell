@@ -92,27 +92,31 @@ nav {
     box-shadow: 0 3px 3px #ac989d;
     /* To hide unless toggled, i.e. checkbox input checked */
     display: none;
+    /* To not to cover the h1 header when menu toggled. The top of this element starts at the bottom of its parent, the header. 0% would be at the top of the parent element, 100% starts at the bottom. */
+    top: 100%;
 }
 
-/* To toggle when burger menu activated, i.e. checkbox input checked. Tilde to target adjoining nav element.*/
+/* Pseudo-class chacked to toggle when burger menu activated, i.e. checkbox input checked. Tilde to target adjoining nav element.*/
 #navbar-toggle:checked~nav {
     display: block;
 }
 
-/* To hide the checkbox
+/* To hide the checkbox */
 #navbar-toggle {
     display: none;
-}*/
+}
 
-/* .navbar-toggle-label {
-   to-do: add value
-} */
+/* Enlargen navbar-toggle-label to make it easier to target */
+.navbar-toggle-label {
+font-size: 2rem;
+}
 
 /* Main content */
 main {
     background-color: #ECF7FB;
     /* Push Footer down */
     flex: 1 0 auto;
+    margin-top: 47px;
 }
 
 .active {
