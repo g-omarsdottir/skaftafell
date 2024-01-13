@@ -120,6 +120,13 @@ main {
     text-decoration: underline;
 }
 
+/* Hero image section */
+#hero-image {
+    height: 600px;
+    width: 100%;
+    background: url(../images/hero_skaftafell_istock_by-vladislav-mavrin.jpg) no-repeat center center / cover;
+}
+
 /* Footer */
 footer {
     /*background-color: #EAD9DD;*/
@@ -168,7 +175,7 @@ footer {
     }
 
     #header-heading {
-        font-size: 150%;
+        font-size: 250%;
         line-height: 50px;
         margin: 0 0.5rem;
     }
@@ -190,11 +197,4 @@ footer {
         text-align: center;
         padding: 10px 0;
     }
-    
-    #footer-icons i {
-        font-size: 150%;
-        padding: 5%;
-        color: #ECF7FB;
-    }
-
 }
