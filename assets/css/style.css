@@ -108,7 +108,7 @@ nav {
 
 /* Enlargen navbar-toggle-label to make it easier to target */
 .navbar-toggle-label {
-font-size: 2rem;
+    font-size: 2rem;
 }
 
 /* Main content */
@@ -130,3 +130,21 @@ footer {
     box-shadow: 0 3px -3px #ac989d;
     /*doesn't work*/
 }
+
+#footer-icons {
+    display: flex;
+    justify-content: space-evenly;
+    text-align: center;
+    padding: 10px 0;
+    list-style-type: none;
+}
+
+#footer-icons i {
+    font-size: 200%;
+    padding: 5%;
+    color: #ECF7FB;
+}
+
+
+/* media query for larger screens: 
+Footer: justify-content: center with padding or space-around */
