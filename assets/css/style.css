@@ -126,7 +126,8 @@ main {
 /* Footer */
 footer {
     /*background-color: #EAD9DD;*/
-    background-color: #ac989d;
+    background-color: #594E52;
+    /*background-color: #ac989d;*/
     box-shadow: 0 3px -3px #ac989d;
     /*doesn't work*/
 }
@@ -145,6 +146,29 @@ footer {
     color: #ECF7FB;
 }
 
-
 /* media query for larger screens: 
 Footer: justify-content: center with padding or space-around */
+
+/* Media query for tablets and larger screens (768px and larger) */
+@media screen and (min-width: 768px) {
+    nav {
+        display: block;
+        /* Display navbar in the header */
+        position: relative;
+        box-shadow: none;
+        width: fit-content;
+        padding-right: 1rem;
+    }
+    /* To show navigation items in a row */
+    #navbar {
+        display: flex;
+    }
+
+    #navbar > li {
+        padding-left: 1rem;
+    }
+
+    .navbar-toggle-label {
+        display: none;
+    }
+}
