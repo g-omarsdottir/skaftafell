@@ -56,13 +56,9 @@ header a {
 }
 
 a:active {
-    font-size: 1.5 rem;
-    /* a lighter shade of background-color. Or use footer color, currently #AC989D*/
-    color: #74939E;
-}
-
-nav li:hover {
     font-size: 1.2rem;
+    color: #74939E;
+    text-decoration: underline;
 }
 
 .current {
@@ -147,9 +143,6 @@ footer {
     color: #ECF7FB;
 }
 
-/* media query for larger screens: 
-Footer: justify-content: center with padding or space-around */
-
 /* Media query for tablets and larger screens (768px and larger) */
 @media screen and (min-width: 768px) {
     nav {
@@ -160,12 +153,13 @@ Footer: justify-content: center with padding or space-around */
         width: fit-content;
         padding-right: 1rem;
     }
+
     /* To show navigation items in a row */
     #navbar {
         display: flex;
     }
 
-    #navbar > li {
+    #navbar>li {
         padding-left: 1rem;
     }
 
@@ -184,5 +178,23 @@ Footer: justify-content: center with padding or space-around */
     /* Push down from header */
     main {
         margin-top: 59.59px;
-    } 
+    }
+
+    #navbar a:hover {
+        border-bottom: 2px groove #ac989d;
+    }
+
+    /* Footer */
+    #footer-icons {
+        justify-content: space-evenly;
+        text-align: center;
+        padding: 20px 0;
+    }
+    
+    #footer-icons i {
+        font-size: 250%;
+        padding: 5%;
+        color: #ECF7FB;
+    }
+
 }
