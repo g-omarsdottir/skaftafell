@@ -36,7 +36,7 @@ h2 {
 
 /* Header */
 header {
-    background-color: whitesmoke;
+    background-color: #ECF7FB;
     /* Padding right and left for margin*/
     padding: 0 1rem;
     position: fixed;
@@ -116,7 +116,8 @@ main {
     background-color: #ECF7FB;
     /* Push Footer down */
     flex: 1 0 auto;
-    margin-top: 47px;
+    /* Push down from header */
+    margin-top: 43px;
 }
 
 .active {
@@ -171,4 +172,17 @@ Footer: justify-content: center with padding or space-around */
     .navbar-toggle-label {
         display: none;
     }
+
+    #header-heading {
+        font-size: 250%;
+        line-height: 50px;
+        margin: 0 0.5rem;
+    }
+
+    /* Main */
+
+    /* Push down from header */
+    main {
+        margin-top: 59.59px;
+    } 
 }
