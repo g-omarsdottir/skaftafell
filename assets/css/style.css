@@ -39,6 +39,10 @@ header {
     background-color: #B5C0C7;
 }
 
+header a {
+    text-decoration: none;
+}
+
 /* Main content */
 main {
 background-color: #ECF7FB;
