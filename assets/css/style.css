@@ -132,7 +132,6 @@ main {
     text-decoration: underline;
 }
 
-
 .hide {
     margin-left: -4000px;
 }
@@ -202,6 +201,34 @@ footer {
     padding: 5%;
     color: #ECF7FB;
 }
+
+/* Contact form */
+.container-contact {
+    width: 80%;
+    margin: 40px auto;
+}
+
+.box-form {
+    margin-bottom: 20px;
+    padding: 0 20px;
+}
+
+.form-input {
+    display: block;
+}
+
+#visitor-photos {
+    margin-top: 5px;
+}
+
+#disclaimer {
+    font-size: 0.7rem;
+    font-style: italic;
+    text-align: justify;
+    text-align: inter-word;
+    margin-top: 5px;
+}
+
 
 /* Media query: screens ≥ 768px (tablets) */
 @media screen and (min-width: 768px) {

@@ -41,29 +41,70 @@
 
     <!-- Main Content -->
     <main>
-        <div>
-            <h2>Contact us!</h2>
-            <div>
-                <p>If you have any questions about the Skaftafell nature reserve or have any suggestions about this website, please contact us by using the contact form below.</p>
-                <p>Due to the glacier’s dynamic nature and constant movement, the accessibility of hiking trails may change rapidly. Which is why we recommend to always stop by at the Visitor Centre in Skaftafell before you embark on your hikes.</p>
-                <p>Let us know if you discovered something new during your visit. We would appreciate your input and would love to hear about your experience!</p>
-                <p>You are welcome to send us your photos to include on our gallery page for your fellow hike enthusiasts to enjoy.</p>
+        <section class="container-contact">
+            <div class="box">
+                <h2>Contact us!</h2>
+                <div>
+                    <p>If you have any questions about the Skaftafell nature reserve or have any suggestions about this
+                        website, please contact us by using the contact form below.</p>
+                    <p>Due to the glacier's dynamic nature and constant movement, the accessibility of hiking trails may
+                        change rapidly. Which is why we recommend to always stop by at the Visitor Centre in Skaftafell
+                        before you embark on your hikes.</p>
+                    <p>We would love to hear about your experience and hiking adventures in Skaftafell.</p>
+                    <p>You are welcome to send us your photos to include on our gallery page for your fellow hike
+                        enthusiasts to enjoy.</p>
+                </div>
             </div>
-            <div>Form</div>
-            <div>Address</div>
+            <!-- Contact form -->
+            <div class="box-form">
+                <form action="https://formdump.codeinstitute.net" method="GET" id="contact-form">
+                    <label for="first-name">First Name</label>
+                    <input type="text" name="first-name" id="first-name" class="form-input" placeholder="First Name"
+                        required>
+                    <br>
+                    <label for="last-name">Last Name</label>
+                    <input type="text" name="last-name" id="last-name" class="form-input" placeholder="Last Name"
+                        required>
+                    <br>
+                    <label for="email-address">Email Address</label>
+                    <input type="email" name="email-address" id="email-address" class="form-input"
+                        placeholder="e.g. name@mail.com" required>
+                    <br>
+                    <textarea name="message" id="message" cols="30" rows="15"
+                        placeholder="Please enter your message here. We look forward to hearing from you!"></textarea>
+                    <br>
+                    <label for="visitor-photos">Upload your photos here:</label>
+                    <input type="file" name="visitor-photos" id="visitor-photos" accept="image/png, image/jpeg">
+                    <br>
+                    <span>
+                        <input type="submit" value="Send Message" id="submit">
+                        <input type="reset" value="Reset Form" id="submit">
+                    </span>
+                    <p id="disclaimer">*Disclaimer: By uploading your photos, you automatically agree with the use and publication on our website.</p>
+                </form>
+            </div>
+        </section>
+        <section class="container-contact">
+            <div class="box-form">Address</div>
+        </section>
         </div>
     </main>
 
     <!-- Footer -->
     <footer>
         <ul id="footer-icons">
-            <li><a href="https://www.facebook.com/groups/335029604588015/?locale=de_DE" target="_blank" rel="noopener" aria-label="visit our facebook page (opens in a new tab)"><i class="fa-brands fa-square-facebook"></i></a></li>
-            <li><a href="https://www.instagram.com/explore/tags/skaftafell/" target="_blank" rel="noopener" aria-label="visit our instagram page (opens in a new tab)"><i class="fa-brands fa-square-instagram"></i></a></li>
-            <li><a href="https://www.flickr.com/search/?text=skaftafell" target="_blank" rel="noopener" aria-label="visit our flickr page (opens in a new tab"><i class="fa-brands fa-flickr"></i></a></li>
+            <li><a href="https://www.facebook.com/groups/335029604588015/?locale=de_DE" target="_blank" rel="noopener"
+                    aria-label="visit our facebook page (opens in a new tab)"><i
+                        class="fa-brands fa-square-facebook"></i></a></li>
+            <li><a href="https://www.instagram.com/explore/tags/skaftafell/" target="_blank" rel="noopener"
+                    aria-label="visit our instagram page (opens in a new tab)"><i
+                        class="fa-brands fa-square-instagram"></i></a></li>
+            <li><a href="https://www.flickr.com/search/?text=skaftafell" target="_blank" rel="noopener"
+                    aria-label="visit our flickr page (opens in a new tab"><i class="fa-brands fa-flickr"></i></a></li>
         </ul>
     </footer>
-<!-- Font Awesome Kit -->
-<script src="https://kit.fontawesome.com/c62380739e.js" crossorigin="anonymous"></script>
+    <!-- Font Awesome Kit -->
+    <script src="https://kit.fontawesome.com/c62380739e.js" crossorigin="anonymous"></script>
 </body>
 
 </html>
