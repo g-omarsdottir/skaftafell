@@ -127,6 +127,10 @@ main {
 .active {
     text-decoration: underline;
 }
+/* to-do: doesn't work)
+.hide {
+    margin-left: -4000px;
+}*/
 
 /* Hero image section */
 #hero-image {
@@ -147,6 +151,16 @@ main {
 
 #hero-text h3 {
     font-style: italic;
+}
+
+/* General information section */
+.container {
+    width: 90%;
+    margin: 20px auto;
+}
+
+.box {
+    margin-bottom: 20px;
 }
 
 /* Footer */
