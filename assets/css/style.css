@@ -167,6 +167,8 @@ main {
 .box {
     margin-bottom: 20px;
     padding: 0 20px;
+    text-align: justify;
+    text-align: inter-word;
     
 }
 
