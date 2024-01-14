@@ -42,6 +42,10 @@ h3 {
     color: #27322C;
 }
 
+p {
+    padding-bottom: 10px;
+}
+
 /* Header */
 header {
     background-color: #ECF7FB;
@@ -127,10 +131,11 @@ main {
 .active {
     text-decoration: underline;
 }
-/* to-do: doesn't work)
+
+
 .hide {
     margin-left: -4000px;
-}*/
+}
 
 /* Hero image section */
 #hero-image {
@@ -161,6 +166,13 @@ main {
 
 .box {
     margin-bottom: 20px;
+    padding: 0 20px;
+    
+}
+
+hr {
+    border-top: 2px groove #ac989d;
+    margin: 5px 0;
 }
 
 /* Footer */
