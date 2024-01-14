@@ -242,12 +242,11 @@ footer {
     }
 }
 
-/* Media query: screens ≥768px (laptops, desktops)*/
+/* Media query: screens ≥1200px (laptops, desktops)*/
 @media screen and (min-width: 1200px) {
     #hero-text {
         width: 600px;
     }
     
-} {
+} 
     
-}
