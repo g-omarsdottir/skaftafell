@@ -157,7 +157,7 @@ main {
     font-style: italic;
 }
 
-/* General information section */
+/* Main section */
 .container {
     width: 90%;
     margin: 20px auto;
@@ -168,16 +168,13 @@ main {
     padding: 0 20px;
     text-align: justify;
     text-align: inter-word;
-    
+
 }
 
 hr {
     border-top: 2px groove #ac989d;
     margin: 5px 0;
 }
-
-/* Trails section */
-
 
 /* Footer */
 footer {
@@ -209,12 +206,22 @@ footer {
 }
 
 .box-form {
-    margin-bottom: 20px;
     padding: 0 20px;
+    line-height: 1.2;
+    justify-content: center;
 }
 
 .form-input {
     display: block;
+}
+
+input[type=text],
+input[type=email],
+textarea {
+    width: 100%;
+    border: 1px solid #594E52;
+    resize: vertical;
+    padding: 10px;
 }
 
 #visitor-photos {
@@ -253,6 +260,10 @@ footer {
         display: none;
     }
 
+    #navbar a:hover {
+        border-bottom: 2px groove #ac989d;
+    }
+
     #header-heading {
         font-size: 250%;
         line-height: 50px;
@@ -266,10 +277,6 @@ footer {
         margin-top: 59.59px;
     }
 
-    #navbar a:hover {
-        border-bottom: 2px groove #ac989d;
-    }
-
     /* Hero image section */
     #hero-text {
         width: 50%;
@@ -281,10 +288,16 @@ footer {
         text-align: center;
         padding: 10px 0;
     }
+
+    /* Contact form */
+    .box-form {
+        width: 80%;
+    }
 }
 
-/* Media query: screens ≥768px (laptops, desktops)*/
+/* Media query: screens ≥992px (laptops, desktops)*/
 @media screen and (min-width: 992px) {
+
     /* Hero image section */
     #hero-text {
         width: 50%;
@@ -297,6 +310,11 @@ footer {
     #hero-text h3 {
         font-size: 1.5rem;
     }
+
+    /* Contact form */
+    .box-form {
+        width: 60%;
+    }
 }
 
 /* Media query: screens ≥1200px (laptops, desktops)*/
@@ -304,6 +322,9 @@ footer {
     #hero-text {
         width: 600px;
     }
-    
-} 
-    
+
+    /* Contact form */
+    .box-form {
+        width: 50%;
+    }
+}
