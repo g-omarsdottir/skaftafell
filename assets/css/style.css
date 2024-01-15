@@ -348,13 +348,31 @@ input[type=reset]:active {
     }
 
     /* Trail section */
-    #trail-1, #trail-2, #trail-3 {
+    #trail-1,
+    #trail-2,
+    #trail-3 {
         display: flex;
         flex-direction: row;
         width: 100%;
     }
 
-    .box-image, .box-text {
+    /* Trail section resize images */
+    #trail-1-image,
+    #trail-2-image,
+    #trail-3-image {
+        width: 100%;
+        max-width: 400px;
+        height: auto;
+    }
+
+    /* To-do: row-reverse not working */
+    #reverse {
+        display: flex;
+        flex-direction: row-reverse;
+    }
+
+    .box-image,
+    .box-text {
         width: 50%
     }
 
@@ -362,11 +380,11 @@ input[type=reset]:active {
         padding-left: 20px;
     }
 
-    .box-text > p {
+    .box-text>p {
         margin-bottom: 15px;
     }
 
-   /*.box-image {
+    /*.box-image {
     flex-shrink: 1;
    }
 
@@ -407,6 +425,15 @@ input[type=reset]:active {
     .box-form {
         width: 60%;
     }
+
+    /* Trail section resize images */
+    #trail-1-image,
+    #trail-2-image,
+    #trail-3-image {
+        width: 100%;
+        max-width: 500px;
+        height: auto;
+    }
 }
 
 /* Media query: screens ≥1200px (laptops, desktops)*/
@@ -415,12 +442,14 @@ input[type=reset]:active {
         width: 600px;
     }
 
- /* Trail section to-do: does not work*/
- #trail-1-image {
-    width: 100%;
-    max-width: 200px;
-    height: auto;
-}
+    /* Trail section resize images */
+    #trail-1-image,
+    #trail-2-image,
+    #trail-3-image {
+        width: 100%;
+        max-width: 600px;
+        height: auto;
+    }
 
     /* Contact form */
     .box-form {
