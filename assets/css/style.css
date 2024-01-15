@@ -276,6 +276,9 @@ input[type=reset]:active {
     margin-top: 20px;
     line-height: 1.2;
     border: 2px solid #ac989d;
+}
+
+.center-box {
     display: flex;
     justify-content: center;
 }
