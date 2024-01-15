@@ -164,17 +164,36 @@ main {
 }
 
 .box {
-    margin-bottom: 20px;
+    /*margin-bottom: 20px;*/
     padding: 0 20px;
     text-align: justify;
     text-align: inter-word;
-
 }
 
 hr {
     border-top: 2px groove #ac989d;
     margin: 5px 0;
 }
+
+.box-image {
+    height: 70vw;
+    margin-bottom: 20px;
+}
+    /*max-width: 700px;*/
+
+#trail-1-image {
+    background: url(../images/home_svartifoss_by-ronile-pixabay.com.jpg) no-repeat center center / cover;
+}
+
+#trail-2-image {
+    background: url(../images/home_hike-skaftafellsheidi_own-collection.jpg) no-repeat center center / cover;
+}
+
+#trail-3-image {
+    background: url(../images/home_hike-morsardalur_own-collection.JPG) no-repeat center center / cover;
+}
+
+/* to-do: #trail-1 [...], .box-text */
 
 /* Footer */
 footer {
@@ -206,9 +225,15 @@ footer {
 }
 
 .box-form {
-    padding: 0 20px;
+    padding: 20px;
     line-height: 1.2;
     justify-content: center;
+    border: 2px solid #ac989d;
+}
+
+.box-address {
+    padding: 20px;
+    line-height: 1.2;
 }
 
 .form-input {
