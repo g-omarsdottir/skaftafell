@@ -192,8 +192,6 @@ hr {
     background: url(../images/home_hike-morsardalur_own-collection.JPG) no-repeat center center / cover;
 }
 
-/* to-do: #trail-1 [...], .box-text */
-
 /* Footer */
 footer {
     /*background-color: #EAD9DD;*/
@@ -275,6 +273,7 @@ input[type=reset]:active {
 
 .box-form {
     padding: 20px;
+    margin-top: 20px;
     line-height: 1.2;
     border: 2px solid #ac989d;
     display: flex;
@@ -356,7 +355,7 @@ input[type=reset]:active {
         width: 100%;
     }
 
-    /* Trail section resize images */
+    /* Trail section */
     #trail-1-image,
     #trail-2-image,
     #trail-3-image {
@@ -426,7 +425,7 @@ input[type=reset]:active {
         width: 60%;
     }
 
-    /* Trail section resize images */
+    /* Trail section */
     #trail-1-image,
     #trail-2-image,
     #trail-3-image {
@@ -442,7 +441,7 @@ input[type=reset]:active {
         width: 600px;
     }
 
-    /* Trail section resize images */
+    /* Trail section */
     #trail-1-image,
     #trail-2-image,
     #trail-3-image {
