@@ -224,6 +224,45 @@ textarea {
     padding: 10px;
 }
 
+input[type=submit] {
+    width: 100px;
+    background-color: #594E52;
+    color: #ECF7FB;
+    padding: 8px;
+    margin-top: 8px;
+}
+
+input[type=reset] {
+    width: 100px;
+    background-color: #ECF7FB;
+    color: #594E52;
+    padding: 8px;
+    margin-top: 8px;
+    margin-left: 8px;
+}
+
+input[type=submit]:hover {
+    background-color: whitesmoke;
+    color: #27322C;
+    font-size: 1.1rem;
+}
+
+input[type=reset]:hover {
+    background: whitesmoke;
+    font-size: 1.1rem;
+}
+
+input[type=submit]:active {
+    background-color: whitesmoke;
+    color: #27322C;
+    font-size: 1.2rem;
+}
+
+input[type=reset]:active {
+    background: whitesmoke;
+    font-size: 1.2rem;
+}
+
 #visitor-photos {
     margin-top: 5px;
 }
