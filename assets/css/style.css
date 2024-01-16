@@ -175,7 +175,6 @@ main {
 }
 
 .box {
-    /*margin-bottom: 20px;*/
     padding: 0 20px;
     text-align: justify;
     text-align: inter-word;
@@ -398,12 +397,6 @@ footer {
         width: 100%;
         max-width: 400px;
         height: auto;
-    }
-
-    /* To-do: row-reverse not working */
-    #reverse {
-        display: flex;
-        flex-direction: row-reverse;
     }
 
     .box-image,
