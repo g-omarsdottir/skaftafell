@@ -133,10 +133,14 @@ main {
 }
 
 .hide {
-    margin-left: -4000px;
+    display: none;
 }
 
 /* Hero image section */
+.no-wrap {
+    white-space: nowrap;
+}
+
 #hero-image {
     height: 600px;
     width: 100%;
@@ -155,6 +159,12 @@ main {
 
 #hero-text h3 {
     font-style: italic;
+}
+
+#hero-text-center {
+    display: flex;
+    justify-content: center;
+    text-align: center;
 }
 
 /* Main section */
@@ -286,6 +296,13 @@ input[type=reset]:active {
     margin-top: 5px;
 }
 
+#thank-you-background {
+    background: url(../images/thank-you_morsardalur_1_own-collection.JPG) no-repeat center center / cover;
+    font-weight: 600;
+    font-size: 10rem;
+    text-align: center;
+}
+
 /* Footer */
 footer {
     /*background-color: #EAD9DD;*/
@@ -352,7 +369,7 @@ footer {
 
     /* Hero image section */
     #hero-text {
-        width: 50%;
+        width: 70%;
     }
 
     /* Trail section */
@@ -424,7 +441,7 @@ footer {
 
     /* Hero image section */
     #hero-text {
-        width: 50%;
+        width: 70%;
     }
 
     #hero-text h2 {
@@ -459,7 +476,7 @@ footer {
 /* Media query: screens ≥1200px (laptops, desktops)*/
 @media screen and (min-width: 1200px) {
     #hero-text {
-        width: 600px;
+        width: 70%;
     }
 
     /* Trail section */
