@@ -25,10 +25,10 @@
 <body>
     <!-- Header -->
     <header>
-        <a href="index.html" aria-label="Navigate to homepage">
-            <h1 id="header-heading">Skaftafell</h1>
+        <a href="#main-content" class="sr-only">Skip to main content, general information about Skaftafell Nature
+            Reserve, a hiker's paradise in Iceland</a>
+        <h1 id="header-heading">Skaftafell</h1>
         </a>
-        <a href="#main-content" class="sr-only">Skip to main content, general information about Skaftafell Nature Reserve, a hiker's paradise in Iceland</a>
         <label for="navbar-toggle" class="navbar-toggle-label"><i class="fa-solid fa-bars"></i></label>
         <input type="checkbox" id="navbar-toggle" name="navbar-toggle">
         <nav>
@@ -45,11 +45,11 @@
         <!-- Hero image section -->
         <section id="hero-image">
             <div class="box-center">
-            <div id="hero-text">
-                <h2>Skaftafell <span class="no-wrap">Nature Reserve</span></h2>
-                <h3>a Hiker's Paradise in Iceland</h3>
+                <div id="hero-text">
+                    <h2>Skaftafell <span class="no-wrap">Nature Reserve</span></h2>
+                    <h3>a Hiker's Paradise in Iceland</h3>
+                </div>
             </div>
-        </div>
         </section>
 
         <!-- General information section -->
@@ -76,7 +76,7 @@
                         The following trails are well marked, and you can easily follow the signs to each destination.
                         Maps are available at the Skaftafell Visitor Centre and <a
                             href="https://vatnajokulsthjodgardur.cdn.prismic.io/vatnajokulsthjodgardur/bf427e20-bf4a-48b5-a919-9432dd2aa4d6_SKAFTAFELL_MAP_60x32cm_enska_2022_LOKA.pdf"
-                            target="_blank" aria-label="a pdf with a map of the area (opens in a new window)"> here.</a>
+                            target="_blank" aria-label="a pdf with a map of the area (opens in a new window)">here.</a>
                     </p>
                 </div>
                 <hr>
@@ -87,33 +87,56 @@
         <section class="container">
             <h2 class="sr-only">Hiking trails</h2>
             <div class="box">
-                <h2>Svartifoss <i class="fa-solid fa-person-hiking"></i></h2>
+                <h2>Svartifoss <i class="fa-solid fa-person-hiking" aria-hidden="true"></i></h2>
                 <div id="trail-1">
                     <div id="trail-1-image" class="box-image" role="img"
-                        aria-label="an image of the svartifoss waterfall flowing over basalt columns to complement the trail description">
+                        aria-label="an image of the svartifoss waterfall flowing over basalt columns to complement the trail description, by photographer Ronile">
                     </div>
-                    <div class="box-text"> 
-       <!-- * -->                 <p aria-labelledby="distance 5.5 km (round-trip), duration 2 hours"><span aria-hidden="true"><i class="fa-solid fa-map-location-dot"></i> 5.5 km (round-trip) <i
-                                    class="fa-regular fa-clock" aria-hidden="true"></i> 2h</span></p>
-                        <p>This is an easy trail with moderate elevation that starts next to Skaftafell Visitor Centre
+                    <div class="box-text">
+                        <span class="sr-only">
+                            <p>
+                                Svartifoss trail, distance 5.5 km (round-trip), duration 2 hours
+                            </p>
+                        </span>
+                        <span aria-hidden="true">
+                            <p>
+                                <i class="fa-solid fa-map-location-dot"></i> 5.5 km (round-trip) 
+                                <i class="fa-regular fa-clock" aria-hidden="true"></i> 2h
+                            </p>
+                        </span>
+                        <p>
+                            This is an easy trail with moderate elevation that starts next to Skaftafell Visitor Centre
                             and leads to the viewpoint <span lang="is">Sjónarsker</span> above the Svartifoss waterfall.
-                            Svartifoss is beautifully framed by unusually symmetric, thick basalt columns.</p>
-                        <p>The trail then continues down into the ravine, across the footbridge, and climbs up the
-                            basalt column steps on the other side of the ravine. </p>
-                        <p>The trail offers a good view of the waterfall and the old turf house at Sel.</p>
+                            Svartifoss is beautifully framed by unusually symmetric, thick basalt columns.
+                        </p>
+                        <p>
+                            The trail then continues down into the ravine, across the footbridge, and climbs up the basalt column steps on the other side of the ravine.
+                        </p>
+                        <p>
+                            The trail offers a good view of the waterfall and the old turf house at Sel.
+                        </p>
                     </div>
                 </div>
-                <hr>
             </div>
+            <hr>
             <div class="box">
                 <h2><span lang="is">Skaftafellsheiði</span> <i class="fa-solid fa-person-hiking" aria-hidden="true"></i></h2>
                 <div id="trail-2">
-                    <div id="trail-2-image" class="box-image" role="img"
-                        aria-label="an image of skaftell glacier from the trail's highest viewpoint to complement the trail description">
+                    <div id="trail-2-image" class="box-image" role="img" aria-label="an image of Skaftell glacier from the trail's highest viewpoint 
+                    to complement the trail description, by photographer Gudrun">
                     </div>
                     <div class="box-text">
-                        <p><span aria-label="distance 16.7 km (round-trip), duration 5-6 hours"></span><span aria-hidden="true"><i class="fa-solid fa-map-location-dot"></i> 16.7 km (round-trip) <i
-                                    class="fa-regular fa-clock" aria-hidden="true"></i> 5-6h</span></p>
+                        <span class="sr-only">
+                            <p>
+                                Skaftafellsheiði trail, distance 16.7 km (round-trip), duration 5-6 hours
+                            </p>
+                        </span>
+                        <span aria-hidden="true">
+                            <p>
+                                <i class="fa-solid fa-map-location-dot"></i> 16.7 km (round-trip) 
+                                <i class="fa-regular fa-clock"></i> 5-6h
+                            </p>
+                        </span>
                         <p>This is a moderately challenging trail that starts from Skaftafell Visitor Centre. The first
                             part
                             of the trail is the same as to Svartifoss. You can either walk all the way up to Svartifoss
@@ -121,41 +144,57 @@
                             then head on from there to <span lang="is">Sjónarsker</span>, or take the shorter route and
                             cross the river on the walking bridge next to <span lang="is">Magnúsarfoss</span> and follow
                             the
-                            marked trail to <span lang="is">Sjónarsker.</span></p>
+                            marked trail to <span lang="is">Sjónarsker.</span>
+                        </p>
                         <p>From <span lang="is">Sjónarsker</span> the path leads to the impressive peaks of <span
                                 lang="is">Kristínartindar.</span> At the crossroads at the foot of <span
                                 lang="is">Kristínartindar</span>, continue straight towards <span
                                 lang="is">Gláma.</span>
                             From <span lang="is">Gláma</span>, follow the path to <span lang="is">Sjónarnípa</span> and
-                            then onwards back to the Skaftafell Visitor Centre via Austurbrekkur.</p>
+                            then onwards back to the Skaftafell Visitor Centre via Austurbrekkur.
+                        </p>
                         <p>The trail offers a good view of Svartifoss, <span lang="is">Kristínartindar</span>, and <span
-                                lang="is">Skaftafellsjökull</span>.</p>
+                                lang="is">Skaftafellsjökull</span>.
+                        </p>
                     </div>
                 </div>
-                <hr>
             </div>
+            <hr>
             <div class="box">
-                <h2><span lang="is">Morsárjökull</span> <i class="fa-solid fa-person-hiking"></i></h2>
+                <h2><span lang="is">Morsárjökull</span> <i class="fa-solid fa-person-hiking" aria-hidden="true"></i></h2>
                 <div id="trail-3">
                     <div id="trail-3-image" class="box-image" role="img"
-                        aria-label="an image of landscape in morsardalur valley to complement the trail description">
+                        aria-label="an image of landscape in Morsarjokull valley to complement the trail description, by photographer Gudrun">
                     </div>
                     <div class="box-text">
-                        <p aria-label="distance 20.9 km (round-trip), duration 6-7 hours"><span><i class="fa-solid fa-map-location-dot" aria-hidden="true"></i> 20.9 km (round-trip) <i
-                                    class="fa-regular fa-clock" aria-hidden="true"></i> 6-7h</span></p>
-                        <p>This is a relatively easy trail since there is little to no elevation. From Skaftafell
-                            Visitor
-                            Centre, head towards <span lang="is">Sjónarsker</span> and continue to <span
-                                lang="is">Morsárdalur.</span> Continue the marked trail between <span
-                                lang="is">Grjóthóll</span> and the glacial lake in front of <span
-                                lang="is">Morsárjökull.</span></p>
-                        <p>Return to <span lang="is">Grjóthóll</span> and continue across the footbridge on <span
-                                lang="is">Morsá</span> river. Walk alongside the river until you come across another
+                        <span class="sr-only">
+                            <p>
+                                Morsárjökull trail, distance 20.9 km (round-trip), duration 6-7 hours
+                            </p>
+                        </span>
+                        <span aria-hidden="true">
+                            <p>
+                                    <i class="fa-solid fa-map-location-dot" aria-hidden="true"></i> 20.9 km (round-trip) 
+                                    <i class="fa-regular fa-clock" aria-hidden="true"></i> 6-7h
+                            </p>
+                        </span>
+                        <p>
+                            This is a relatively easy trail since there is little to no elevation. From Skaftafell
+                            Visitor Centre, head towards <span lang="is">Sjónarsker</span> and continue to <span
+                            lang="is">Morsárdalur.</span> Continue the marked trail between <span
+                            lang="is">Grjóthóll</span> and the glacial lake in front of <span
+                            lang="is">Morsárjökull.</span>
+                        </p>
+                        <p>
+                            Return to <span lang="is">Grjóthóll</span> and continue across the footbridge on <span
+                            lang="is">Morsá</span> river. Walk alongside the river until you come across another
                             footbridge by <span lang="is">Götugil.</span> Cross the bridge and follow the marked trail
-                            back
-                            to Skaftafell Visitor Centre.</p>
-                        <p>The trail offers a good view of the <span lang="is">Morsárjökull</span> glacier and <span
-                                lang="is">Skeiðarársandur.</span></p>
+                            back to Skaftafell Visitor Centre.
+                        </p>
+                        <p>
+                            The trail offers a good view of the <span lang="is">Morsárjökull</span> glacier and <span
+                            lang="is">Skeiðarársandur.</span>
+                        </p>
                     </div>
                 </div>
             </div>
