@@ -1,5 +1,5 @@
 /* Google fonts import */
-@import url('https://fonts.googleapis.com/css2?family=Nunito+Sans:wght@500;600;700&family=Roboto:ital,wght@0,300;1,300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Nunito+Sans:ital,opsz,wght@0,6..12,500;0,6..12,600;0,6..12,700;1,6..12,500;1,6..12,600;1,6..12,700&family=Roboto:ital,wght@0,300;0,400;1,300;1,400&display=swap');
 /*font-family: 'Nunito Sans', sans-serif;
   font-family: 'Roboto', sans-serif;*/
 
@@ -16,6 +16,7 @@ body {
     flex-direction: column;
     color: #13181A;
     font-family: 'Roboto', sans-serif;
+    font-weight: 300;
 }
 
 h1 {
@@ -136,6 +137,12 @@ main {
     display: none;
 }
 
+.box-center {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+
 /* Hero image section */
 .no-wrap {
     white-space: nowrap;
@@ -154,17 +161,11 @@ main {
     top: 50px;
     width: 80%;
     min-height: 150px;
-    padding: 40px 10px 20px 20px;
+    padding: 40px 20px;
 }
 
 #hero-text h3 {
     font-style: italic;
-}
-
-#hero-text-center {
-    display: flex;
-    justify-content: center;
-    text-align: center;
 }
 
 /* Main section */
@@ -298,9 +299,18 @@ input[type=reset]:active {
 
 #thank-you-background {
     background: url(../images/thank-you_morsardalur_1_own-collection.JPG) no-repeat center center / cover;
+    width: 100%;
+    position: relative;
+}
+
+#thank-you-text {
+    width: 60%;
+    top: 20px;
+    padding: 5px;
     font-weight: 600;
-    font-size: 10rem;
-    text-align: center;
+    font-size: 3rem;
+    background: rgba(245, 245, 245, 0.644);
+   position: absolute;
 }
 
 /* Footer */
