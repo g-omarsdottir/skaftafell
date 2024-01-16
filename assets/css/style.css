@@ -134,7 +134,8 @@ main {
 }
 
 .hide {
-    display: none;
+    visibility: hidden;
+    line-height: 0;
 }
 
 .box-center {
@@ -309,7 +310,7 @@ input[type=reset]:active {
     font-weight: 600;
     font-size: 3rem;
     background: rgba(245, 245, 245, 0.644);
-   position: absolute;
+    position: absolute;
 }
 
 /* Footer */
