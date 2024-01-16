@@ -55,7 +55,7 @@ header {
     position: fixed;
     z-index: 5;
     width: 100%;
-    /*cast shadow - first value 0 for right+left. Second value vertical offset, positiv below, negative above. Third value blur.*/
+    /*For "3D effect"*/
     box-shadow: 0 3px 3px #ac989d;
     /* To include navbar toggle in header */
     display: flex;
@@ -97,11 +97,10 @@ nav {
     width: 100%;
     left: 0;
     padding: 0 1rem;
-    /* Box-shadow to-do: check if subject to change */
     box-shadow: 0 3px 3px #ac989d;
     /* To hide unless toggled, i.e. checkbox input checked */
     display: none;
-    /* To not to cover the h1 header when menu toggled. The top of this element starts at the bottom of its parent, the header. 0% would be at the top of the parent element, 100% starts at the bottom. */
+    /* To not to cover the h1 header when dropdown menu toggled.*/
     top: 100%;
 }
 
@@ -182,7 +181,7 @@ main {
 .box {
     padding: 0 20px;
     text-align: justify;
-    text-align: inter-word;
+    text-justify: inter-word;
 }
 
 hr {
@@ -297,7 +296,7 @@ input[type=reset]:active {
     font-size: 0.7rem;
     font-style: italic;
     text-align: justify;
-    text-align: inter-word;
+    text-justify: inter-word;
     margin-top: 5px;
 }
 
@@ -319,11 +318,7 @@ input[type=reset]:active {
 
 /* Footer */
 footer {
-    /*background-color: #EAD9DD;*/
     background-color: #594E52;
-    /*background-color: #ac989d;*/
-    box-shadow: 0 3px -3px #ac989d;
-    /*doesn't work*/
 }
 
 #footer-icons {
@@ -346,7 +341,6 @@ footer {
         display: block;
         /* Display navbar in the header */
         position: relative;
-        box-shadow: none;
         width: fit-content;
         padding-right: 1rem;
     }
@@ -421,21 +415,6 @@ footer {
     #images {
         column-count: 2;
         column-gap: 1.5px;
-    }
-
-    /*.box-image {
-    flex-shrink: 1;
-   }
-
-   .box-text {
-    flex-grow: 2;
-   }
-
-    /* Footer */
-    #footer-icons {
-        justify-content: space-evenly;
-        text-align: center;
-        padding: 10px 0;
     }
 
     /* Contact form */
