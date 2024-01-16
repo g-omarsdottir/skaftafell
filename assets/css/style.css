@@ -192,27 +192,10 @@ hr {
     background: url(../images/home_hike-morsardalur_own-collection.JPG) no-repeat center center / cover;
 }
 
-/* Footer */
-footer {
-    /*background-color: #EAD9DD;*/
-    background-color: #594E52;
-    /*background-color: #ac989d;*/
-    box-shadow: 0 3px -3px #ac989d;
-    /*doesn't work*/
-}
-
-#footer-icons {
-    display: flex;
-    justify-content: space-evenly;
-    text-align: center;
-    padding: 10px 0;
-    list-style-type: none;
-}
-
-#footer-icons i {
-    font-size: 200%;
-    padding: 5%;
-    color: #ECF7FB;
+/* Gallery */
+#images img {
+    width: 100%;
+    border: 1.5px solid #ECF7FB;
 }
 
 /* Contact form */
@@ -303,6 +286,29 @@ input[type=reset]:active {
     margin-top: 5px;
 }
 
+/* Footer */
+footer {
+    /*background-color: #EAD9DD;*/
+    background-color: #594E52;
+    /*background-color: #ac989d;*/
+    box-shadow: 0 3px -3px #ac989d;
+    /*doesn't work*/
+}
+
+#footer-icons {
+    display: flex;
+    justify-content: space-evenly;
+    text-align: center;
+    padding: 10px 0;
+    list-style-type: none;
+}
+
+#footer-icons i {
+    font-size: 200%;
+    padding: 5%;
+    color: #ECF7FB;
+}
+
 /* Media query: screens ≥ 768px (tablets) */
 @media screen and (min-width: 768px) {
     nav {
@@ -386,6 +392,12 @@ input[type=reset]:active {
         margin-bottom: 15px;
     }
 
+    /* Gallery */
+    #images {
+        column-count: 2;
+        column-gap: 1.5px;
+    }
+
     /*.box-image {
     flex-shrink: 1;
    }
@@ -435,6 +447,12 @@ input[type=reset]:active {
         width: 100%;
         max-width: 500px;
         height: auto;
+    }
+
+    /* Gallery */
+    #images {
+        column-count: 3;
+        column-gap: 1.5px;
     }
 }
 
