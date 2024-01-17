@@ -407,7 +407,7 @@ footer {
 
     .box-image,
     .box-text {
-        width: 50%
+        width: 50%;
     }
 
     .box-text {
@@ -425,15 +425,10 @@ footer {
     }
 
     /* Contact form */
-    
-    .container-contact {
-        padding: 
-    }
-    
-    /*.box-contactform {
+    .box-contactform {
         width: 80%;
-    }*/
-
+    }
+}
 
     /* Media query: screens ≥992px (laptops, desktops)*/
     @media screen and (min-width: 992px) {
@@ -452,7 +447,7 @@ footer {
         }
 
         /* Contact form */
-       .container-contact {
+        .container-contact {
             width: 50%;
         }
 
@@ -489,10 +484,6 @@ footer {
 
         /* Contact form */
         .container-contact {
-            width: 60%;
-        }
-        
-        .box-contactform {
-            width: 50%;
+            width: 70%;
         }
     }
