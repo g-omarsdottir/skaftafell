@@ -261,6 +261,10 @@ input[type=reset]:active {
     font-size: 1.2rem;
 }
 
+.form-input {
+    display: block;
+}
+
 .container-contact {
     min-width: 80%;
     margin: 40px auto;
@@ -268,15 +272,11 @@ input[type=reset]:active {
     background: rgba(245, 245, 245, 0.644);
 }
 
-.box-form {
+.box-contactform {
     padding: 5%;
     margin-top: 20px;
     line-height: 1.2;
     border: 2px solid #ac989d;
-}
-
-.form-input {
-    display: block;
 }
 
 #box-form-center {
@@ -425,14 +425,15 @@ footer {
     }
 
     /* Contact form */
-    .box-form {
-        width: 80%;
-    }
-
-    /* Contact form */
+    
     .container-contact {
-        width: 90%;
+        padding: 
     }
+    
+    /*.box-contactform {
+        width: 80%;
+    }*/
+
 
     /* Media query: screens ≥992px (laptops, desktops)*/
     @media screen and (min-width: 992px) {
@@ -451,46 +452,47 @@ footer {
         }
 
         /* Contact form */
-        .container-contact {
+       .container-contact {
+            width: 50%;
+        }
+
+        /* Trail section */
+        #trail-1-image,
+        #trail-2-image,
+        #trail-3-image {
+            width: 100%;
+            max-width: 500px;
+            height: auto;
+        }
+
+        /* Gallery */
+        #images {
+            column-count: 3;
+            column-gap: 1.5px;
+        }
+    }
+
+    /* Media query: screens ≥1200px (laptops, desktops)*/
+    @media screen and (min-width: 1200px) {
+        #hero-text {
             width: 70%;
-
-            .box-form {
-                width: 60%;
-            }
-
-            /* Trail section */
-            #trail-1-image,
-            #trail-2-image,
-            #trail-3-image {
-                width: 100%;
-                max-width: 500px;
-                height: auto;
-            }
-
-            /* Gallery */
-            #images {
-                column-count: 3;
-                column-gap: 1.5px;
-            }
         }
 
-        /* Media query: screens ≥1200px (laptops, desktops)*/
-        @media screen and (min-width: 1200px) {
-            #hero-text {
-                width: 70%;
-            }
-
-            /* Trail section */
-            #trail-1-image,
-            #trail-2-image,
-            #trail-3-image {
-                width: 100%;
-                max-width: 600px;
-                height: auto;
-            }
-
-            /* Contact form */
-            .box-form {
-                width: 50%;
-            }
+        /* Trail section */
+        #trail-1-image,
+        #trail-2-image,
+        #trail-3-image {
+            width: 100%;
+            max-width: 600px;
+            height: auto;
         }
+
+        /* Contact form */
+        .container-contact {
+            width: 60%;
+        }
+        
+        .box-contactform {
+            width: 50%;
+        }
+    }
