@@ -419,7 +419,7 @@ footer {
     }
 
     /* Gallery */
-    #images {
+    .images {
         column-count: 2;
         column-gap: 1.5px;
     }
