@@ -155,7 +155,7 @@ main {
 #hero-image {
     height: 600px;
     width: 100%;
-    background: url(../images/hero_skaftafell_istock_by-vladislav-mavrin.jpg) no-repeat center center / cover;
+    background: url(../images/hero_skaftafell_istock_by-vladislav-mavrin.webp) no-repeat center center / cover;
     position: relative;
 }
 
@@ -195,15 +195,15 @@ hr {
 }
 
 #trail-1-image {
-    background: url(../images/home_svartifoss_by-ronile-pixabay.com.jpg) no-repeat center center / cover;
+    background: url(../images/home_svartifoss_by-ronile-pixabay.com.webp) no-repeat center center / cover;
 }
 
 #trail-2-image {
-    background: url(../images/home_hike-skaftafellsheidi_own-collection.jpg) no-repeat center center / cover;
+    background: url(../images/home_hike-skaftafellsheidi_own-collection.webp) no-repeat center center / cover;
 }
 
 #trail-3-image {
-    background: url(../images/home_hike-morsardalur_own-collection.JPG) no-repeat center center / cover;
+    background: url(../images/home_hike-morsardalur_own-collection.webp) no-repeat center center / cover;
 }
 
 /* Gallery */
@@ -285,7 +285,7 @@ input[type=reset]:active {
 }
 
 #contact-background {
-    background: url(../images/contact_hvannadalshnukur_own-collection.jpg) no-repeat center center / cover;
+    background: url(../images/contact_hvannadalshnukur_own-collection.webp) no-repeat center center / cover;
 }
 
 #visitor-photos {
@@ -307,7 +307,7 @@ input[type=reset]:active {
 
 /* Thank you - feedback to contact form*/
 #thank-you-background {
-    background: url(../images/thank-you_morsardalur_1_own-collection.JPG) no-repeat center center / cover;
+    background: url(../images/thank-you_morsardalur_1_own-collection.webp) no-repeat center center / cover;
     width: 100%;
     position: relative;
 }
