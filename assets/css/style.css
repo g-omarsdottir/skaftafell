@@ -155,7 +155,7 @@ main {
 #hero-image {
     height: 600px;
     width: 100%;
-    background: url(../images/hero_skaftafell_istock_by-vladislav-mavrin.webp) no-repeat center center / cover;
+    background: url(../images/hero-skaftafell.webp) no-repeat center center / cover;
     position: relative;
 }
 
@@ -192,15 +192,15 @@ hr {
 }
 
 #trail-1-image {
-    background: url(../images/home_svartifoss_by-ronile-pixabay.com.webp) no-repeat center center / cover;
+    background: url(../images/home-svartifoss.webp) no-repeat center center / cover;
 }
 
 #trail-2-image {
-    background: url(../images/home_hike-skaftafellsheidi_own-collection.webp) no-repeat center center / cover;
+    background: url(../images/home-skaftafellsheidi.webp) no-repeat center center / cover;
 }
 
 #trail-3-image {
-    background: url(../images/home_hike-morsardalur_own-collection.webp) no-repeat center center / cover;
+    background: url(../images/home-morsardalur.webp) no-repeat center center / cover;
 }
 
 /* Gallery */
@@ -282,7 +282,7 @@ input[type=reset]:active {
 }
 
 #contact-background {
-    background: url(../images/contact_hvannadalshnukur_own-collection.webp) no-repeat center center / cover;
+    background: url(../images/contact-hvannadalshnukur.webp) no-repeat center center / cover;
 }
 
 #visitor-photos {
@@ -302,7 +302,7 @@ input[type=reset]:active {
 
 /* Thank you - feedback to contact form*/
 #thank-you-background {
-    background: url(../images/thank-you_morsardalur_1_own-collection.webp) no-repeat center center / cover;
+    background: url(../images/thank-you-morsardalur.webp) no-repeat center center / cover;
     width: 100%;
     position: relative;
 }
