@@ -146,6 +146,20 @@ Users receive feedback after successfully sending an enquiry or files with a tha
 
 ![thank-you screenshot](/documention/gen-feat-thank-you.png)
 
+**Footer**
+
+Social media links for Facebook, Instagram and Flickr are included in the footer for visitors to gather information without having to use the contact form (for more reserved people) and to stay in touch. The links open a new tab and lead to the general websites since social media accounts do not exist for this website, at least yet. 
+
+### Features left to implement
+
+- Add a section with climbing routes using special equipment. 
+- Add a comment section or section with user stories of hiking adventures.
+- Improve Accessibility further:
+    - Parkinson: enlarge the navigation buttons. After manually testing the website using the disability simulator in Google Chrome extension, adding this feature would be an improvement. Due to lack of time, this could not be implemented before submission of this project.
+
+
+
+
 
 
 
