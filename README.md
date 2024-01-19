@@ -393,6 +393,24 @@ The aspect of web accessibility gradually increased in importance during the dev
 Map of the Skaftafell area is from the [official website of Vatnajökull National Park](https://vatnajokulsthjodgardur.cdn.prismic.io/vatnajokulsthjodgardur/bf427e20-bf4a-48b5-a919-9432dd2aa4d6_SKAFTAFELL_MAP_60x32cm_enska_2022_LOKA.pdf).
  
 ### Imagery
+- [iStock](https://www.istockphoto.com/de)
+    - The hero image by photographer Vladislav Mavrin was purchased on iStock.
+
+- Free images from:
+    - [Pixabay](https://pixabay.com/) from users:
+        - [Jens](https://pixabay.com/de/users/fritz_the_cat-2101387/)
+        - [KStreck](https://pixabay.com/de/users/kstreck-10728261/)
+        - [Laurette Chapuis](https://pixabay.com/de/users/laloublue-142381/)
+        - [Patricia van den Berg](https://pixabay.com/de/users/pvdberg-1838397/)
+        - [Ronile](https://pixabay.com/de/users/ronile-126846/)
+        - [Vilve Roosioks](https://pixabay.com/de/users/pohjakroon-165862/)
+    - [Freeimages](https://www.freeimages.com/) from users:
+        - criscris1
+        - wopstah
+    - Flickr from user:
+        - [Mariejirousek](https://www.flickr.com/photos/mariejirousek/sets/72157645744730184)
+    - Fred Schalk, friend, used with his agreement and watermark.
+    - My own personal collection.
 
 ### Acknowledgements
 
