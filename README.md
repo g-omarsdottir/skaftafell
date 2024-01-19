@@ -128,7 +128,11 @@ The hiking trail section offers an overview of hiking trails accessible without 
 
 ![homepage screenshot](/documention/gen-feat-homepage.png)
 
+**Gallery page**
 
+The gallery page offers a selection of scenic photographs depicting the contrasting landscape of the area to give users an idea of what to expect and prepare for their visit in Skaftafell.
+
+![gallery screenshot](/documention/gen-feat-gallery.png)
 
 
 
