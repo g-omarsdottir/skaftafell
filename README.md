@@ -298,20 +298,6 @@ The aspect of web accessibility gradually increased in importance during the dev
 
         ![Excerpt from report on contact.html](/documention/wave-webaim-contact.png)
 
-    - Error notification:
-
-        - The error is caused due to workaround to add a toggled dropdown menu for the navigation bar with CSS. Since I do not have the knowledge yet to solve this with Javascript, this error cannot be fixed.
-
-        ![Error empty form](/documention/wave-error-empty-form-label.png)
-        ![Error empty form reference](/documention/wave-error-empty-form-label-reference.png)
-        ![Error empty form toggle code](/documention/wave-empty-form-label-toggle-menu-code.png)
-
-    - Warning notification:
-
-    ![Warning redundant link](/documention/wave-warning-redundant-link.png)
-    ![Warning redundant link reference](/documention/wave-warning-redundant-link-reference.png)
-    ![Warning redundant link code](/documention/wave-warning-redundant-link-code.png)
-
 ### Manual Testing
 
 - Responsiveness on all device sizes was achieved by using flexbox.
@@ -333,6 +319,20 @@ The aspect of web accessibility gradually increased in importance during the dev
 ## Bugs
 
 ### Known Bugs
+
+- Error notification from WAVE Web Accessibility Evaluation:
+
+    - The error is caused due to workaround to add a toggled dropdown menu for the navigation bar with CSS. Since I do not have the knowledge yet to solve this with Javascript, this error cannot be fixed.
+
+    ![Error empty form](/documention/wave-error-empty-form-label.png)
+    ![Error empty form reference](/documention/wave-error-empty-form-label-reference.png)
+    ![Error empty form toggle code](/documention/wave-empty-form-label-toggle-menu-code.png)
+
+- Warning notification WAVE Web Accessibility Evaluation:
+
+    ![Warning redundant link](/documention/wave-warning-redundant-link.png)
+    ![Warning redundant link reference](/documention/wave-warning-redundant-link-reference.png)
+    ![Warning redundant link code](/documention/wave-warning-redundant-link-code.png)
 
 ### Resolved Bugs
 
