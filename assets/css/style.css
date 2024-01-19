@@ -377,6 +377,11 @@ footer {
         margin-top: 59.59px;
     }
 
+    /* Main section */
+    .container {
+    margin: 20px 40px;
+}
+
     /* Hero image section */
     #hero-text {
         width: 70%;
