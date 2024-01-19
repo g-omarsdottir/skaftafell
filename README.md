@@ -45,8 +45,8 @@ Skaftafell Nature Reserve is located in the south-west of Iceland at the foot of
 - #### [Manual Testing](#manual-testing-1)
 
 ### [Bugs](#bugs-1)
-#### [Known Bugs](#known-bugs-1)
-#### [Resolved Bugs](#resolved-bugs-1)
+- #### [Known Bugs](#known-bugs-1)
+- #### [Resolved Bugs](#resolved-bugs-1)
 
 ### [Deployment and Local Development](#deployment-and-local-development-1)
 - #### [Github Pages](#github-pages-1)
