@@ -194,6 +194,13 @@ The aspect of web accessibility gradually increased in importance during the dev
 
     - The language code was retrieved from the website [IANA Language Subtag Registry, the official registry](https://www.iana.org/assignments/language-subtag-registry/language-subtag-registry) for all subtags available for use in language tags:
  
+## Technology used
+
+### Languages Used
+
+- HTML5
+- CSS3
+- Markdown for this README
 
 
 
