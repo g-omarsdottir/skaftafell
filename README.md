@@ -142,13 +142,13 @@ The contact page includes a short invitation to use the contact form to ask ques
 
 **Thank-you page** 
 
-Users receive feedback after successfully sending an enquiry or files with a thank-you page displaying a thank you note with a background image of me in Skaftafell. The navigation bar and footer are included on the page for users to return easily to homepage or go on discovering using the social media platforms linked in the footer.
+- Users receive feedback after successfully sending an enquiry or files with a thank-you page displaying a thank you note with a background image of me in Skaftafell. The navigation bar and footer are included on the page for users to return easily to homepage or go on discovering using the social media platforms linked in the footer.
 
 ![thank-you screenshot](/documention/gen-feat-thank-you.png)
 
 **Footer**
 
-Social media links for Facebook, Instagram and Flickr are included in the footer for visitors to gather information without having to use the contact form (for more reserved people) and to stay in touch. The links open a new tab and lead to the general websites since social media accounts do not exist for this website, at least yet. 
+- Social media links for Facebook, Instagram and Flickr are included in the footer for visitors to gather information without having to use the contact form (for more reserved people) and to stay in touch. The links open a new tab and lead to the general websites since social media accounts do not exist for this website, at least yet. 
 
 ### Features left to implement
 
@@ -201,6 +201,49 @@ The aspect of web accessibility gradually increased in importance during the dev
 - HTML5
 - CSS3
 - Markdown for this README
+
+### Frameworks, Libraries, and Programs used
+
+- [Gitpod](https://www.gitpod.io/) 
+    - as code editor   
+
+- [Github](https://github.com/) 
+    - for storing files
+    - for deployment of the website
+
+- [Git](https://git-scm.com/) 
+    - for version control: 
+
+- [Code Institute template for this README](https://github.com/Code-Institute-Org/gitpod-full-template)
+
+- Google Chrome dev tools
+
+- [Google fonts](https://fonts.google.com/?query=roboto and https://fonts.google.com/specimen/Nunito+Sans?query=nunit)
+
+- [Am I Responsive](https://ui.dev/amiresponsive?url=https://g-omarsdottir.github.io/skaftafell/)
+
+- Accessibility: 
+    - [The World Wide Web Consortium (W3C)](https://www.w3.org/) 
+    - [WebAim](https://webaim.org/)
+
+- [Iana Language subtag registry](https://www.iana.org/assignments/language-subtag-registry/language-subtag-registry)
+
+- [Photo optimizer Optimizilla](https://imagecompressor.com/)   
+
+- Converter to WEBP format: [Pixelied](https://pixelied.com/convert/jpg-converter/jpg-to-webp)
+
+- [Fontawesome](https://fontawesome.com/)  
+
+- [Favicon mountain](https://www.freefavicon.com/freefavicons/icons/iconinfo/mountain-15-152-260771.html)  
+
+- Wireframes: [Balsamiq](https://balsamiq.com/?gad_source=1&gclid=Cj0KCQiAtaOtBhCwARIsAN_x-3IqIhBtaldBdPKw1vdzHDLfNzwSUMhR0FZJWFcy9QNYXi6CTAbcnE4aAhhUEALw_wcB) 
+
+- Images:
+    - [iStock](https://www.istockphoto.com/de)
+    - [Pixabay] (https://pixabay.com/de/) 
+    - [Freeimages.com](https://www.freeimages.com/)  
+    - [Flickr](https://www.flickr.com/)
+
 
 
 
