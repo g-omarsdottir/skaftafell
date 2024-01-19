@@ -353,7 +353,9 @@ The aspect of web accessibility gradually increased in importance during the dev
         - or "visibility: hidden;" and/or "line-height: 0;"
     - Resolved with a [CSS style code from WebAim](https://webaim.org/techniques/css/invisiblecontent/).
 
+## Deployment and IDE development
 
+### Github Pages
 
     
 
