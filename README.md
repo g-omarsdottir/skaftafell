@@ -330,6 +330,11 @@ The aspect of web accessibility gradually increased in importance during the dev
     - [Chrome Extension Spell Checker](https://chromewebstore.google.com/detail/spell-checker-for-chrome/jfpdnkkdgghlpdgldicfgnnnkhdfhocg)
     - [Chrome Extension Disability simulator](https://chromewebstore.google.com/detail/web-disability-simulator/olioanlbgbpmdlgjnnampnnlohigkjla)
 
+## Bugs
+
+### Known Bugs
+
+### Resolved Bugs
 
 
 
