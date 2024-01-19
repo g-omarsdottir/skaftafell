@@ -79,6 +79,39 @@ Thank-you-for-your-message page:
 
 ![Thank-you page](/documention/wireframe-thank-you-feedback.png)
 
+## Features
+
+- The website is responsive on all device sizes.
+- Visitors can navigate to homepage, gallery page and contact page using the navigation bar. 
+- The Header of the website is linked to the homepage on the gallery page and the contact page. The link was removed from the header on the homepage since it is unnessecary and disturbed the reading flow when using screen readers.
+- A pseudo-link:active was added to all links give users feedback in size and color when clicking the links.
+
+
+### Existing Features
+
+Interactive elements:
+
+- Navigation bar 
+-- It is identical on all three pages, except that the location of the current page is indicated visibly with an underline, and as visibly hidden text for screen readers only.
+
+    - Allows easy navigation from page to page without using the reverse function of the web browser.
+    
+    - Displayed a toggled drop-down menu on the mobile version:
+
+![Navbar toggled](/documention/navbar-toggled.png)
+
+    - Displayed in a row without toggle for the desktop version.
+
+![Navbar untoggled](/documention/navbar-untoggled.png)
+
+    - When actively clicked:
+
+![Navbar activated](/documention/navbar-activated.png)
+
+
+
+
+
 
 
 
