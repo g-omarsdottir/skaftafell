@@ -353,9 +353,17 @@ The aspect of web accessibility gradually increased in importance during the dev
         - or "visibility: hidden;" and/or "line-height: 0;"
     - Resolved with a [CSS style code from WebAim](https://webaim.org/techniques/css/invisiblecontent/).
 
-## Deployment and IDE development
+## Deployment and Local Development
 
 ### Github Pages
+
+-	Log into GitHub and navigate to repository [skaftafell](https://github.com/g-omarsdottir/skaftafell)
+-	Navigate to settings of the repository on top navigation menu.
+-	Navigate to Pages on the left sidebar navigation menu.
+-	In the section "Build and deployment, go to Source and select "Deploy from a branch" from the navigation dropdown menu
+-	Go to "Branch" and select the following from the dropdown menus: "Main", "Root" and click "Save". 
+-	The link to the deployed website will appear at the top of the section as soon as processed. 
+-	The link is accessible from the main page of the depository on the right navigation menu under “Deployments”.
 
     
 
