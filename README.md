@@ -8,22 +8,22 @@ Skaftafell is a Nature Reserve located in the south-west of Iceland at the foot 
 
 ## User Experience (UX)
 
-### Key information
+### Key Information
 - A selection of hiking trails that do require neither experience nor climbing gear.
 - Detailed trail descriptions supported by images of one of the highlights of each hiking trail and a map of the area.
 - A selection of photographs from the area to give an impression of what the nature reserve has to offer.
 - A contact form to allow users to ask questions about the nature reserve and the hiking trails, as well as contribute their own photographs to be displayed on the website.
 
-### First time visitors goals
+### First Time Visitors Goals
 - To gather information about Skaftafell and its hiking trails.
 - To be able to ask questions about the area, the level of difficulty of the trails, necessary equipment and clothing, the weather conditions, and possible dangers regarding hiking near to glaciers.
 - To enjoy scenic photographs of the landscape.
 
-### Returning visitors goals
+### Returning Visitors Goals
 - Check for new or updated trail descriptions.
 - Review the photo gallery for any unseen photos or check if their own contributed photos have been included.
 
-### Frequent visitor goals 
+### Frequent Visitor Goals 
 - Check for new or updated trail descriptions.
 - Review the photo gallery for any unseen photos or check if their own contributed photos have been included.
 
@@ -71,15 +71,15 @@ Testing results of color contrast check for readability and web accessibility ar
 
 ![Homepage](/documention/wireframe-homepage.png)
 
-### Wireframe for Gallery page:
+### Wireframe for Gallery Page:
 
 ![Gallery page](/documention/wireframe-gallery.png)
 
-### Wireframe for Contact page:
+### Wireframe for Contact Page:
 
 ![Contact page](/documention/wireframe-contact-page.png)
 
-### Wireframe for Thank-you-for-your-message page:
+### Wireframe for Thank-you-for-your-message Page:
 
 ![Thank-you page](/documention/wireframe-thank-you-feedback.png)
 
@@ -127,7 +127,7 @@ Testing results of color contrast check for readability and web accessibility ar
 
 ![Form](/documention/form-interactive.png)
 
-### General Features of each page
+### General Features of Each Page
 
 **Homepage**
 
@@ -137,19 +137,19 @@ Testing results of color contrast check for readability and web accessibility ar
 
 ![homepage screenshot](/documention/gen-feat-homepage.png)
 
-**Gallery page**
+**Gallery Page**
 
 - The gallery page offers a selection of scenic photographs depicting the contrasting landscape of the area to give users an idea of what to expect and prepare for their visit in Skaftafell.
 
 ![gallery screenshot](/documention/gen-feat-gallery.png)
 
-**Contact page**
+**Contact Page**
 
 - The contact page includes a short invitation to use the contact form to ask questions, share their stories and submit photographs to be displayed on the gallery page. The contact form was created using the method GET. 
 
 ![contact screenshot](/documention/gen-feat-contact.png)
 
-**Thank-you page** 
+**Thank-you Page** 
 
 - Users receive feedback after successfully sending an enquiry or files with a thank-you page displaying a thank you note with a background image of me in Skaftafell. The navigation bar and footer are included on the page for users to return easily to homepage or go on discovering using the social media platforms linked in the footer.
 
@@ -159,7 +159,7 @@ Testing results of color contrast check for readability and web accessibility ar
 
 - Social media links for Facebook, Instagram and Flickr are included in the footer for visitors to gather information without having to use the contact form (for more reserved people) and to stay in touch. The links open a new tab and lead to the general websites since social media accounts do not exist for this website, at least yet. 
 
-### Features left to implement
+### Features Left to Implement
 
 - Add a section with climbing routes using special equipment. 
 - Add a comment section or section with user stories of hiking adventures.
@@ -203,7 +203,7 @@ The aspect of web accessibility gradually increased in importance during the dev
 
     - The language code was retrieved from the website [IANA Language Subtag Registry, the official registry](https://www.iana.org/assignments/language-subtag-registry/language-subtag-registry) for all subtags available for use in language tags.
  
-## Technology used
+## Technology Used
 
 ### Languages Used
 
@@ -211,7 +211,7 @@ The aspect of web accessibility gradually increased in importance during the dev
 - CSS3
 - Markdown for this README
 
-### Frameworks, Libraries, and Programs used
+### Frameworks, Libraries, and Programs Used
 
 - [Gitpod](https://www.gitpod.io/) 
     - as code editor   
@@ -318,7 +318,7 @@ The aspect of web accessibility gradually increased in importance during the dev
     - Manual testing on finalized website was performed by by, friends, and family.
     - No errors were detected.
 
-- **Full testing**
+- **Full Testing**
     - Test on various browsers (Firefox, Chrome, Opera, Safari, Microsoft Edge) 
     - Test on various devices (including but not limited to iPhone, Nokia, Samsung)
         - Test if links are working - external links, map and Social Media
