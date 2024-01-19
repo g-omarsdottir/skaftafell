@@ -48,4 +48,9 @@ Testing results of color contrast check for readability and web accessibility ar
 
 ![Font color heading elements](/documention/color-contrast-27322C-on-ECF7FB.png)
 
+### Typography
+- Roboto fonts were used for paragraphs.
+- Nunita fonts were used for headers. 
+- Fontawesome was used to create a visually clear, minimalistic content and to add a playful touch.
+
 
