@@ -134,6 +134,13 @@ The gallery page offers a selection of scenic photographs depicting the contrast
 
 ![gallery screenshot](/documention/gen-feat-gallery.png)
 
+**Contact page**
+
+The contact page includes a short invitation to use the contact form to ask questions, share their stories and submit photographs to be displayed on the gallery page. The contact form was created using the method GET. 
+
+![contact screenshot](/documention/gen-feat-contact.png)
+
+
 
 
 
