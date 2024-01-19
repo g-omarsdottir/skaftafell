@@ -415,7 +415,7 @@ Map of the Skaftafell area is from the [official website of Vatnajökull Nationa
 ### Acknowledgements
 
 - My mentor Mitko for guidance, encouragement, valuable advice on reliable online resources, information, and patience.
-- My sister for providing content and engaging in testing the website in all aspects on various devices at home and at her workplace.
+- My sister, Malfridur, for providing content and engaging in testing the website in all aspects on various devices at home and at her workplace.
 - The Slack community for information and encouragement.
 - Information from official guidelines for web accessibilities:
     - WebAim
