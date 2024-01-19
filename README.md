@@ -374,5 +374,13 @@ The aspect of web accessibility gradually increased in importance during the dev
 -	Type "git clone" and then paste the URL copied on GitHub in step 2.
 -	Press "Enter" and your local clone will be created.
 
+## Credits
 
+### Content
+
+### Media
+
+### Imagery
+
+### Acknowledgements
 
