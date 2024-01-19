@@ -23,6 +23,11 @@ Skaftafell is a Nature Reserve located in the south-west of Iceland at the foot 
 - Check for new or updated trail descriptions.
 - Review the photo gallery for any unseen photos or check if their own contributed photos have been included.
 
+### Frequent visitor goals 
+- Check for new or updated trail descriptions.
+- Review the photo gallery for any unseen photos or check if their own contributed photos have been included.
+
+
 ## Design
 
 ### Color Scheme
@@ -63,19 +68,19 @@ Testing results of color contrast check for readability and web accessibility ar
 
 - The mobile version of the website was developed first and gradually developed towards the wireframes for desktops. Screen sizes smaller than 320 were not considered in the design.
 
-- Wireframe for Homepage: 
+### Wireframe for Homepage: 
 
 ![Homepage](/documention/wireframe-homepage.png)
 
-- Wireframe for Gallery page:
+### Wireframe for Gallery page:
 
 ![Gallery page](/documention/wireframe-gallery.png)
 
-- Wireframe for Contact page:
+### Wireframe for Contact page:
 
 ![Contact page](/documention/wireframe-contact-page.png)
 
-- Wireframe for Thank-you-for-your-message page:
+### Wireframe for Thank-you-for-your-message page:
 
 ![Thank-you page](/documention/wireframe-thank-you-feedback.png)
 
@@ -89,7 +94,12 @@ Testing results of color contrast check for readability and web accessibility ar
 
 ### Existing Features
 
-**Interactive elements**
+**Interactive Elements**
+
+- Header
+    - The heading element in the header is linked to the homepage on all pages, except the homepage itself, for easy and convenient navigation.
+
+    ![Header](/documention/features-header.png)
 
 - Navigation bar 
     - It is identical on all three pages, except that the location of the current page is indicated visibly with an underline, and as visibly hidden text for screen readers only.
@@ -248,7 +258,7 @@ The aspect of web accessibility gradually increased in importance during the dev
 
 ### Validator Testing
 
-- HTML
+- **HTML**
     - No errors were detected when passing through the official [World Wide Web Consortium (W3C) validator for HMTL](https://validator.w3.org/) for
     - index.html
 
@@ -263,11 +273,11 @@ The aspect of web accessibility gradually increased in importance during the dev
 
         ![Test results HTML thank-you](/documention/html-validator-thank-you.html.png)
 
-- CSS 
+- **CSS** 
     - No errors were detected when passing through the official [World Wide Web Consortium (W3C) Jigsaw validator for CSS](https://jigsaw.w3.org/css-validator/):
         ![Test results CSS](/documention/css-validator.png)
 
-- Lighthouse Report
+- **Lighthouse Report**
     - [For desktop](/documention/lighthouse-report-desktop.html):
 
         ![Lighthouse report desktop](/documention/lighthouse-report-desktop.png)
@@ -279,7 +289,7 @@ The aspect of web accessibility gradually increased in importance during the dev
 
         - I do not have the knowledge yet to fix all indicated errors and warnings in the lighthouse report for mobile devices.
 
-- WAVE Web Accessibility Evaluation Tool
+- **WAVE Web Accessibility Evaluation Tool**
     - [Link to full report](https://wave.webaim.org/report#/https://g-omarsdottir.github.io/skaftafell/)
 
     - Summary of report:
@@ -305,11 +315,11 @@ The aspect of web accessibility gradually increased in importance during the dev
 - Responsiveness on all device sizes was achieved by using flexbox.
 - Responsiveness was tested manually.
 
-- Testing User Stories
+- **Testing User Stories**
     - Manual testing on finalized website was performed by by, friends, and family.
     - No errors were detected.
 
-- Full testing
+- **Full testing**
     - Test on various browsers (Firefox, Chrome, Opera, Safari, Microsoft Edge) 
     - Test on various devices (including but not limited to iPhone, Nokia, Samsung)
         - Test if links are working - external links, map and Social Media
