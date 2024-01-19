@@ -161,16 +161,17 @@ Social media links for Facebook, Instagram and Flickr are included in the footer
 
 The aspect of web accessibility gradually increased in importance during the development, partly due to my ever growing interest. My goal was to achieve accessibility by:
 
-- using semantic HTML elements to structure the content
+- Using semantic HTML elements to structure the content
 
-- applying alternative text or aria-label to all imagery
+- Applying alternative text (or aria-label) to all images.
 
-- to improve the flow of speech when using screen readers
-    - the link of the header to navigate to homepage was removed from the homepage
+- To improve the flow of speech when using screen readers:
 
-    - decorative icons as well as abbreviations were hidden by applying the aria-hide: “true” attribute as per guidelines of [WebAim](https://accessibleweb.com/tips-tools-tutorials/font-awesome/). Instead of the icon, a visibly hidden text was added for more detailed description and replacing abbreviations visually supported by icons (e.g., an icon of a clock and “2h”) by using [this code](https://webaim.org/techniques/css/invisiblecontent/) provided by WebAim. This code allows interactive visibly hidden elements to be focusable when using keyboard commands instead of a mouse. 
+    - The link of the header to navigate to homepage was removed from the homepage
 
-    - a [Skip Navigation link](https://webaim.org/techniques/skipnav/]) to skip to main content was included on each page.
+    - Decorative icons as well as abbreviations were hidden by applying the aria-hide: “true” attribute as per guidelines of [WebAim](https://accessibleweb.com/tips-tools-tutorials/font-awesome/). Instead of the icon, a visibly hidden text was added for more detailed description and replacing abbreviations visually supported by icons (e.g., an icon of a clock and “2h”) by using [this code](https://webaim.org/techniques/css/invisiblecontent/) provided by WebAim. This code allows interactive visibly hidden elements to be focusable when using keyboard commands instead of a mouse. 
+
+    - A [Skip Navigation link](https://webaim.org/techniques/skipnav/]) to skip to main content was included on each page.
  
 - Justifying text was avoided to improve user experience of persons with reading disorders.
 
@@ -185,6 +186,14 @@ The aspect of web accessibility gradually increased in importance during the dev
 
 - Labels were applied to all input elements of the form on the contact page.
 
+- Language attributes
+
+    - Because the website describes hiking trails containing language specific characters of the Icelandic alphabet, the language attribute was applied directly to each element containing Icelandic words by using a span element to isolate from the main language, Englisch, as per the [World Wide Web Consortium’s (W3C) guideline on internationalization](https://www.w3.org/International/questions/qa-html-language-declarations#:~:text=When%20the%20page%20contains%20content,Usage%22): 
+
+    - Language attributes were applied to improve accessibility and to avoid scramble results of language specific characters on various browsers.
+
+    - The language code was retrieved from the website [IANA Language Subtag Registry, the official registry](https://www.iana.org/assignments/language-subtag-registry/language-subtag-registry) for all subtags available for use in language tags:
+ 
 
 
 
