@@ -26,7 +26,7 @@ Skaftafell is a Nature Reserve located in the south-west of Iceland at the foot 
 ## Design
 
 ### Color Scheme
-The primary color used as main background color was detected from the hero image and complementary colors were chosen for the color scheme. The following color palette displays the colors used for this website:
+- The primary color used as main background color was detected from the hero image and complementary colors were chosen for the color scheme. The following color palette displays the colors used for this website:
 
 ![Colors Used](/documention/design-colors-used.png)
 
@@ -54,28 +54,28 @@ Testing results of color contrast check for readability and web accessibility ar
 - Fontawesome was used to create a visually clear, minimalistic content and to add a playful touch.
 
 ## Imagery
-All images were used with the permission of the owners or by a purchased license. The owner is credited in the alternative text for each photo on the website’s gallery page as well as aria-labels on the homepage. All photographers are credited in the credit section. 
+- All images were used with the permission of the owners or by a purchased license. The owner is credited in the alternative text for each photo on the website’s gallery page as well as aria-labels on the homepage. All photographers are credited in the credit section. 
 
-To keep structure and layout separated, the images on the homepage were applied using the CSS stylesheet. The attributes (Role=”img”) and “aria-label” were added. An alternative text was provided for all image elements instead of a title.
+- To keep structure and layout separated, the images on the homepage were applied using the CSS stylesheet. The attributes (Role=”img”) and “aria-label” were added. An alternative text was provided for all image elements instead of a title.
 
 ## Wireframes
-Wireframes were created for desktops using the website [balsamiq](https://balsamiq.com/?gad_source=1&gclid=Cj0KCQiAtaOtBhCwARIsAN_x-3IqIhBtaldBdPKw1vdzHDLfNzwSUMhR0FZJWFcy9QNYXi6CTAbcnE4aAhhUEALw_wcB).
+- Wireframes were created for desktops using the website [balsamiq](https://balsamiq.com/?gad_source=1&gclid=Cj0KCQiAtaOtBhCwARIsAN_x-3IqIhBtaldBdPKw1vdzHDLfNzwSUMhR0FZJWFcy9QNYXi6CTAbcnE4aAhhUEALw_wcB).
 
-The mobile version of the website was developed first and gradually developed towards the wireframes for desktops. Screen sizes smaller than 320 were not considered in the design.
+- The mobile version of the website was developed first and gradually developed towards the wireframes for desktops. Screen sizes smaller than 320 were not considered in the design.
 
-Homepage: 
+- Wireframe for Homepage: 
 
 ![Homepage](/documention/wireframe-homepage.png)
 
-Gallery page:
+- Wireframe for Gallery page:
 
 ![Gallery page](/documention/wireframe-gallery.png)
 
-Contact page:
+- Wireframe for Contact page:
 
 ![Contact page](/documention/wireframe-contact-page.png)
 
-Thank-you-for-your-message page:
+- Wireframe for Thank-you-for-your-message page:
 
 ![Thank-you page](/documention/wireframe-thank-you-feedback.png)
 
@@ -122,21 +122,21 @@ Thank-you-for-your-message page:
 
 **Homepage**
 
-The homepage includes a brief introduction of the Skaftafell Nature Reserve with basic facts about history, geology, geography, flora, and facilities as well as a link to a map of the area. 
+- The homepage includes a brief introduction of the Skaftafell Nature Reserve with basic facts about history, geology, geography, flora, and facilities as well as a link to a map of the area. 
 
-The hiking trail section offers an overview of hiking trails accessible without additional gear. Each trail contains a detailed description, indication of distance and duration, supported with an image depicting a viewpoint from the trail.
+    The hiking trail section offers an overview of hiking trails accessible without additional gear. Each trail contains a detailed description, indication of distance and duration, supported with an image depicting a viewpoint from the trail.
 
 ![homepage screenshot](/documention/gen-feat-homepage.png)
 
 **Gallery page**
 
-The gallery page offers a selection of scenic photographs depicting the contrasting landscape of the area to give users an idea of what to expect and prepare for their visit in Skaftafell.
+- The gallery page offers a selection of scenic photographs depicting the contrasting landscape of the area to give users an idea of what to expect and prepare for their visit in Skaftafell.
 
 ![gallery screenshot](/documention/gen-feat-gallery.png)
 
 **Contact page**
 
-The contact page includes a short invitation to use the contact form to ask questions, share their stories and submit photographs to be displayed on the gallery page. The contact form was created using the method GET. 
+- The contact page includes a short invitation to use the contact form to ask questions, share their stories and submit photographs to be displayed on the gallery page. The contact form was created using the method GET. 
 
 ![contact screenshot](/documention/gen-feat-contact.png)
 
