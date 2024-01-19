@@ -92,9 +92,7 @@ Thank-you-for-your-message page:
 Interactive elements:
 
 - Navigation bar 
--- It is identical on all three pages, except that the location of the current page is indicated visibly with an underline, and as visibly hidden text for screen readers only.
-
-    - Allows easy navigation from page to page without using the reverse function of the web browser.
+    - It is identical on all three pages, except that the location of the current page is indicated visibly with an underline, and as visibly hidden text for screen readers only.
     
     - Displayed a toggled drop-down menu on the mobile version:
 
@@ -107,6 +105,14 @@ Interactive elements:
     - When actively clicked:
 
 ![Navbar activated](/documention/navbar-activated.png)
+
+- Allows easy navigation from page to page without using the reverse function of the web browser.
+
+- A link to a PDF file of a map of the area on the homepage.
+    - PDF file opens in a new tab.
+
+![PDF map](/documention/pdf-map.png)
+
 
 
 
