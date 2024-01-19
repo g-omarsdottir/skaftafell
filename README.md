@@ -247,7 +247,7 @@ The aspect of web accessibility gradually increased in importance during the dev
 ## Validator Testing
 
 - HTML
-    - No errors were detected when passing through the official [World Wide Web Consortium (W3C) validator](https://validator.w3.org/) for
+    - No errors were detected when passing through the official [World Wide Web Consortium (W3C) validator for HMTL](https://validator.w3.org/) for
     - index.html
 
         ![Test results HTML index](/documention/html-validator-index.html.png)
@@ -261,6 +261,9 @@ The aspect of web accessibility gradually increased in importance during the dev
 
         ![Test results HTML thank-you](/documention/html-validator-thank-you.html.png)
 
+- CSS 
+    - No errors were detected when passing through the official [World Wide Web Consortium (W3C) Jigsaw validator for CSS](https://jigsaw.w3.org/css-validator/):
+        ![Test results CSS](/documention/css-validator.png)
 
 
 
