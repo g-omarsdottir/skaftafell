@@ -383,12 +383,15 @@ The aspect of web accessibility gradually increased in importance during the dev
 ### Content
 - The content for this project was written by me, Gudrun Omarsdottir, and my sister, Malfridur Omarsdottir, Geographer and Specialist in Geothermal Energies. We are both former Park Rangers in Skaftafell. 
 
-- The description of the campsite and location of the nature reserve was provided by the [official website](https://www.vatnajokulsthjodgardur.is/en/areas/skaftafell) of Vatnajokulsthjodgardur (Vatnajökull National Park).  
+- The description of the campsite and location of the nature reserve was provided by the [official website of Vatnajökull National Park](https://www.vatnajokulsthjodgardur.is/en/areas/skaftafell).  
 
 - Parts of the hiking trails descriptions were provided by the website [nat.is](https://nat.is/hiking-skaftafell-national-park/). 
  
 ### Media
+- [The template for this README.md](https://github.com/Code-Institute-Solutions/readme-template)
 
+Map of the Skaftafell area is from the [official website of Vatnajökull National Park](https://vatnajokulsthjodgardur.cdn.prismic.io/vatnajokulsthjodgardur/bf427e20-bf4a-48b5-a919-9432dd2aa4d6_SKAFTAFELL_MAP_60x32cm_enska_2022_LOKA.pdf).
+ 
 ### Imagery
 
 ### Acknowledgements
