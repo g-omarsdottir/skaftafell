@@ -4,4 +4,4 @@ Skaftafell is a Nature Reserve located in the south-west of Iceland at the foot 
 
 ![Am I Responsive](documention/am-I-responsive.png)
 
-
+[View Skaftafell live project here](https://g-omarsdottir.github.io/skaftafell/)
