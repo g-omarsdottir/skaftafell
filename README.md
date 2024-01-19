@@ -33,19 +33,19 @@ The primary color used as main background color was detected from the hero image
 - #ECF7FB as primary background color
 - #594E52 as footer background color
 - #AC989D as decorative box-shadow
-- #13181A as font color of the body element 
+- #13181A as font color of body text element 
 - #27322C as font color of heading elements
 - #ECF7FB as font color for text elements in footer
 
 ### Color Contrast Check
 Testing results of color contrast check for readability and web accessibility are as follows:
 
+- #13181A as font color of body text elements: [Link to Coolors Color Contrast Checker report](https://coolors.co/contrast-checker/13181a-ecf7fb)
+
 ![Font color body element](/documention/color-contrast-13181A-on-ECF7FB.png)
 
-[Link to Coolors Color Contrast Checker report](https://coolors.co/contrast-checker/13181a-ecf7fb)
+- #27322C as font color of heading elements: [Link to Coolors Color Contrast Checker report](https://coolors.co/contrast-checker/27322c-ecf7fb)
+
+![Font color heading elements](/documention/color-contrast-27322C-on-ECF7FB.png)
 
 
-
-
-
-[def]: /documention/color-contrast-#13181A-on-#ECF7FB.png
