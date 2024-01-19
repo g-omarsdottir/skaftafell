@@ -336,5 +336,14 @@ The aspect of web accessibility gradually increased in importance during the dev
 
 ### Resolved Bugs
 
+- Visibly hide content, which is focusable for keyboard users without using a mouse and detectable for screen readers
+    - The following attempts to visibly hide content, yet make focusable and detectable for screen readers are not detected by screen readers:
+        - "Display: none;" as suggested in the 
+        - or "visibility: hidden;" and/or line-height: 0;
+    - Resolved with a [CSS style code from WebAim](https://webaim.org/techniques/css/invisiblecontent/)
+
+
+
+    
 
 
