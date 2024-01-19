@@ -296,6 +296,17 @@ The aspect of web accessibility gradually increased in importance during the dev
 
         ![Excerpt from report on contact.html](/documention/wave-webaim-contact.png)
 
+    - Error notification:
+
+    -   The error is caused due to workaround to add a toggled dropdown menu for the navigation bar with CSS. Since I do not have the knowledge yet to solve this with Javascript, this error cannot be fixed.
+
+        ![Error empty form](/documention/wave-error-empty-form-label.png)
+
+        ![Error empty form reference](/documention/wave-error-empty-form-label-reference.png)
+
+    - Code to toggle drowdown menu with CSS:
+
+        ![Error empty form toggle code](/documention/wave-empty-form-label-toggle-menu-code.png)
 
 
 
