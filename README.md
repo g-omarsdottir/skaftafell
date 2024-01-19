@@ -314,6 +314,21 @@ The aspect of web accessibility gradually increased in importance during the dev
 
 ### Manual Testing
 
+- Responsiveness on all device sizes was achieved by using flexbox.
+- Responsiveness was tested manually.
+
+- Testing User Stories
+    - Manual testing on finalized website was performed by by, friends, and family.
+    - No errors were detected.
+
+- Full testing
+    - Test on various browsers (Firefox, Chrome, Opera, Safari, Microsoft Edge) 
+    - Test on various devices (including but not limited to iPhone, Nokia, Samsung)
+        - Test if links are working - external links, map and Social Media
+        - Make sure the website is responsive by using Google Chrome dev tools
+    - Testing using screen reader (Windows 11 extension)
+    - [Chrome Extension Spell Checker](https://chromewebstore.google.com/detail/spell-checker-for-chrome/jfpdnkkdgghlpdgldicfgnnnkhdfhocg)
+    - [Chrome Extension Disability simulator](https://chromewebstore.google.com/detail/web-disability-simulator/olioanlbgbpmdlgjnnampnnlohigkjla)
 
 
 
