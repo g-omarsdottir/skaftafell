@@ -244,7 +244,9 @@ The aspect of web accessibility gradually increased in importance during the dev
     - [Freeimages.com](https://www.freeimages.com/)  
     - [Flickr](https://www.flickr.com/)
 
-## Validator Testing
+## Testing
+
+### Validator Testing
 
 - HTML
     - No errors were detected when passing through the official [World Wide Web Consortium (W3C) validator for HMTL](https://validator.w3.org/) for
@@ -309,6 +311,8 @@ The aspect of web accessibility gradually increased in importance during the dev
     ![Warning redundant link](/documention/wave-warning-redundant-link.png)
     ![Warning redundant link reference](/documention/wave-warning-redundant-link-reference.png)
     ![Warning redundant link code](/documention/wave-warning-redundant-link-code.png)
+
+### Manual Testing
 
 
 
