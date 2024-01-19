@@ -140,6 +140,11 @@ The contact page includes a short invitation to use the contact form to ask ques
 
 ![contact screenshot](/documention/gen-feat-contact.png)
 
+**Thank-you page** 
+
+Users receive feedback after successfully sending an enquiry or files with a thank-you page displaying a thank you note with a background image of me in Skaftafell. The navigation bar and footer are included on the page for users to return easily to homepage or go on discovering using the social media platforms linked in the footer.
+
+![thank-you screenshot](/documention/gen-feat-thank-you.png)
 
 
 
