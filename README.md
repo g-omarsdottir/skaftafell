@@ -286,6 +286,8 @@ The aspect of web accessibility gradually increased in importance during the dev
     - [Colors Artylick](https://colors.artyclick.com/color-names-dictionary/color-names/coral-blue-color)
     - [icolorpalette.com](https://icolorpalette.com/)
 
+- Informative, decorative static badges for README.md from [Schield.io](https://shields.io/badges)
+
 ## Testing
 
 ### Validator Testing
