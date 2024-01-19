@@ -126,6 +126,10 @@ The homepage includes a brief introduction of the Skaftafell Nature Reserve with
 
 The hiking trail section offers an overview of hiking trails accessible without additional gear. Each trail contains a detailed description, indication of distance and duration, supported with an image depicting a viewpoint from the trail.
 
+![homepage screenshot](/documention/gen-feat-homepage.png)
+
+
+
 
 
 
