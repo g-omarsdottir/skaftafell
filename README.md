@@ -227,7 +227,7 @@ The aspect of web accessibility gradually increased in importance during the dev
 
 - Google Chrome dev tools
 
-- [Google fonts](https://fonts.google.com/?query=roboto and https://fonts.google.com/specimen/Nunito+Sans?query=nunit)
+- [Google Fonts Roboto](https://fonts.google.com/?query=roboto) and [Google Fonts Nunito Sans](https://fonts.google.com/specimen/Nunito+Sans?query=nunit)
 
 - [Am I Responsive](https://ui.dev/amiresponsive?url=https://g-omarsdottir.github.io/skaftafell/)
 
@@ -252,6 +252,10 @@ The aspect of web accessibility gradually increased in importance during the dev
     - [Pixabay] (https://pixabay.com/de/) 
     - [Freeimages.com](https://www.freeimages.com/)  
     - [Flickr](https://www.flickr.com/)
+
+- Color Palettes:
+    - [Colors Artylick](https://colors.artyclick.com/color-names-dictionary/color-names/coral-blue-color)
+    - [icolorpalette.com](https://icolorpalette.com/)
 
 ## Testing
 
