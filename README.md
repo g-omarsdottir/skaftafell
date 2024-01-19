@@ -365,6 +365,14 @@ The aspect of web accessibility gradually increased in importance during the dev
 -	The link to the deployed website will appear at the top of the section as soon as processed. 
 -	The link is accessible from the main page of the depository on the right navigation menu under “Deployments”.
 
-    
+### Local Clone
+
+-	Log in to GitHub and navigate to repository [skaftafell](https://github.com/g-omarsdottir/skaftafell)
+-	Click on the green "Code" button, select "Clone with HTTPS, SSH or GitHub CLI" and copy the link shown.
+-	Open Git Bash.
+-	Change the current working directory to the location where you want the cloned directory to be made.
+-	Type "git clone" and then paste the URL copied on GitHub in step 2.
+-	Press "Enter" and your local clone will be created.
+
 
 
