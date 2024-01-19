@@ -414,3 +414,14 @@ Map of the Skaftafell area is from the [official website of Vatnajökull Nationa
 
 ### Acknowledgements
 
+- My mentor Mitko for guidance, encouragement, valuable advice on reliable online resources, information, and patience.
+- My sister for providing content and engaging in testing the website in all aspects on various devices at home and at her workplace.
+- The Slack community for information and encouragement.
+- Information from official guidelines for web accessibilities:
+    - WebAim
+    - World Wide Web Consortium (W3C)
+    - Inspiration from various tutorials and platforms including but not limited to:
+    - Dave Gray on [YouTube](https://www.youtube.com/watch?v=n4R2E7O-Ngo) and [FreeCodeCamp](https://www.freecodecamp.org/).
+    - This guide on [How to Write a Git Commit Message](https://cbea.ms/git-commit/).
+    - Kera Cudmore for [examples](https://github.com/kera-cudmore/readme-examples) and an informative [presentation](https://docs.google.com/presentation/d/19_7r_To5bu7UjnZD87hrzWQi63Ij0YpaRH1XFnPZZe8/edit#slide=id.g1551aff15c5_1_108) on creating a README.
+    - The inspiration for fonts that go well together is from [Fontpair](https://www.fontpair.co/all).
