@@ -381,7 +381,12 @@ The aspect of web accessibility gradually increased in importance during the dev
 ## Credits
 
 ### Content
+- The content for this project was written by me, Gudrun Omarsdottir, and my sister, Malfridur Omarsdottir, Geographer and Specialist in Geothermal Energies. We are both former Park Rangers in Skaftafell. 
 
+- The description of the campsite and location of the nature reserve was provided by the [official website](https://www.vatnajokulsthjodgardur.is/en/areas/skaftafell) of Vatnajokulsthjodgardur (Vatnajökull National Park).  
+
+- Parts of the hiking trails descriptions were provided by the website [nat.is](https://nat.is/hiking-skaftafell-national-park/). 
+ 
 ### Media
 
 ### Imagery
