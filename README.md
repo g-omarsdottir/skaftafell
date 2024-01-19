@@ -157,6 +157,33 @@ Social media links for Facebook, Instagram and Flickr are included in the footer
 - Improve Accessibility further:
     - Parkinson: enlarge the navigation buttons. After manually testing the website using the disability simulator in Google Chrome extension, adding this feature would be an improvement. Due to lack of time, this could not be implemented before submission of this project.
 
+## Accessibility 
+
+The aspect of web accessibility gradually increased in importance during the development, partly due to my ever growing interest. My goal was to achieve accessibility by:
+
+- using semantic HTML elements to structure the content
+
+- applying alternative text or aria-label to all imagery
+
+- to improve the flow of speech when using screen readers
+    - the link of the header to navigate to homepage was removed from the homepage
+
+    - decorative icons as well as abbreviations were hidden by applying the aria-hide: “true” attribute as per guidelines of [WebAim](https://accessibleweb.com/tips-tools-tutorials/font-awesome/). Instead of the icon, a visibly hidden text was added for more detailed description and replacing abbreviations visually supported by icons (e.g., an icon of a clock and “2h”) by using [this code](https://webaim.org/techniques/css/invisiblecontent/) provided by WebAim. This code allows interactive visibly hidden elements to be focusable when using keyboard commands instead of a mouse. 
+
+    - a [Skip Navigation link](https://webaim.org/techniques/skipnav/]) to skip to main content was included on each page.
+ 
+- Justifying text was avoided to improve user experience of persons with reading disorders.
+
+- Color contrast tests was performed on all text elements on their background colors.
+
+- Use of aria-label
+    - On the navigation bar indicates the current page and whereto the navigation bar buttons navigate. 
+
+    - On all links explaining the process of where the link will lead to and how it will open. All external links open in a new tab using target=”_blank”, all internal links in navigation bar open directly in the same window. 
+
+    - For background images that have meaning for the content.
+
+- Labels were applied to all input elements of the form on the contact page.
 
 
 
