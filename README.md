@@ -57,3 +57,10 @@ Testing results of color contrast check for readability and web accessibility ar
 All images were used with the permission of the owners or by a purchased license. The owner is credited in the alternative text for each photo on the website’s gallery page as well as aria-labels on the homepage. All photographers are credited in the credit section. 
 
 To keep structure and layout separated, the images on the homepage were applied using the CSS stylesheet. The attributes (Role=”img”) and “aria-label” were added. An alternative text was provided for all image elements instead of a title.
+
+## Wireframes
+Wireframes were created for desktops using the website [balsamiq](https://balsamiq.com/?gad_source=1&gclid=Cj0KCQiAtaOtBhCwARIsAN_x-3IqIhBtaldBdPKw1vdzHDLfNzwSUMhR0FZJWFcy9QNYXi6CTAbcnE4aAhhUEALw_wcB).
+
+The mobile version of the website was developed first and gradually developed towards the wireframes for desktops. Screen sizes smaller than 320 were not considered in the design.
+
+
