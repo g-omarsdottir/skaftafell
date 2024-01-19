@@ -63,4 +63,8 @@ Wireframes were created for desktops using the website [balsamiq](https://balsam
 
 The mobile version of the website was developed first and gradually developed towards the wireframes for desktops. Screen sizes smaller than 320 were not considered in the design.
 
+Homepage: 
+![homepage](/documention/wireframe-homepage-resized.png)
+
+
 
