@@ -246,6 +246,22 @@ The aspect of web accessibility gradually increased in importance during the dev
 
 ## Validator Testing
 
+- HTML
+    - No errors were detected when passing through the official [World Wide Web Consortium (W3C) validator](https://validator.w3.org/) for
+    - index.html
+
+        ![Test results HTML index](/documention/html-validator-index.html.png)
+    - gallery.html
+
+        ![Test results HTML gallery](/documention/html-validator-gallery.html.png)
+    - contact.html
+
+        ![Test results HTML contact](/documention/html-validator-contact.html.png)
+    - thank-you.html
+
+        ![Test results HTML thank-you](/documention/html-validator-thank-you.html.png)
+
+
 
 
 
