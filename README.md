@@ -265,19 +265,36 @@ The aspect of web accessibility gradually increased in importance during the dev
     - No errors were detected when passing through the official [World Wide Web Consortium (W3C) Jigsaw validator for CSS](https://jigsaw.w3.org/css-validator/):
         ![Test results CSS](/documention/css-validator.png)
 
-## Lighthouse Report
-- [For desktop](/documention/lighthouse-report-desktop.html):
+- Lighthouse Report
+    - [For desktop](/documention/lighthouse-report-desktop.html):
 
-    ![Lighthouse report desktop](/documention/lighthouse-report-desktop.png)
-
-
-- [For mobile devices](/documention/lighthouse-report-mobile.html):
-
-    ![Lighthouse report mobile](/documention/lighthouse-report-mobile.png)
-
-    - I do not have the knowledge yet to fix all indicated errors and warnings in the lighthouse report for mobile devices.
+        ![Lighthouse report desktop](/documention/lighthouse-report-desktop.png)
 
 
+    - [For mobile devices](/documention/lighthouse-report-mobile.html):
+
+        ![Lighthouse report mobile](/documention/lighthouse-report-mobile.png)
+
+        - I do not have the knowledge yet to fix all indicated errors and warnings in the lighthouse report for mobile devices.
+
+- WAVE Web Accessibility Evaluation Tool
+    - [Link to full report](https://wave.webaim.org/report#/https://g-omarsdottir.github.io/skaftafell/)
+
+    - Summary of report:
+
+        ![Summary report](/documention/wave-webaim-summary.png)
+    
+    - Excerpt from report on index.html
+    
+        ![Excerpt index.html](/documention/wave-webaim-homepage.png)
+
+    - Excerpt from report on gallery.html
+
+        ![Excerpt from report on gallery.html](/documention/wave-webaim-gallery.png)
+
+    - Excerpt from report on contact.html
+
+        ![Excerpt from report on contact.html](/documention/wave-webaim-contact.png)
 
 
 
