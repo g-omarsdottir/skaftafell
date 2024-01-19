@@ -106,13 +106,17 @@ Interactive elements:
 
 ![Navbar activated](/documention/navbar-activated.png)
 
-- Allows easy navigation from page to page without using the reverse function of the web browser.
+    - Allows easy navigation from page to page without using the reverse function of the web browser.
 
 - A link to a PDF file of a map of the area on the homepage.
     - PDF file opens in a new tab.
 
 ![PDF map](/documention/pdf-map.png)
 
+- A contact form to send a message and option to upload and send images.
+    - Contact form is visibly seperated with a decorative boarder.
+
+![Form](/documention/form-interactive.png)
 
 
 
