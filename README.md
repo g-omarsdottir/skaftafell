@@ -53,4 +53,7 @@ Testing results of color contrast check for readability and web accessibility ar
 - Nunita fonts were used for headers. 
 - Fontawesome was used to create a visually clear, minimalistic content and to add a playful touch.
 
+## Imagery
+All images were used with the permission of the owners or by a purchased license. The owner is credited in the alternative text for each photo on the website’s gallery page as well as aria-labels on the homepage. All photographers are credited in the credit section. 
 
+To keep structure and layout separated, the images on the homepage were applied using the CSS stylesheet. The attributes (Role=”img”) and “aria-label” were added. An alternative text was provided for all image elements instead of a title.
