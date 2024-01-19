@@ -188,11 +188,11 @@ The aspect of web accessibility gradually increased in importance during the dev
 
 - Language attributes
 
-    - Because the website describes hiking trails containing language specific characters of the Icelandic alphabet, the language attribute was applied directly to each element containing Icelandic words by using a span element to isolate from the main language, Englisch, as per the [World Wide Web Consortium’s (W3C) guideline on internationalization](https://www.w3.org/International/questions/qa-html-language-declarations#:~:text=When%20the%20page%20contains%20content,Usage%22): 
+    - Because the website describes hiking trails containing language specific characters of the Icelandic alphabet, the language attribute was applied directly to each element containing Icelandic words by using a span element to isolate from the main language, Englisch, as per the [World Wide Web Consortium’s (W3C) guideline on internationalization](https://www.w3.org/International/questions/qa-html-language-declarations#:~:text=When%20the%20page%20contains%20content,Usage%22).
 
     - Language attributes were applied to improve accessibility and to avoid scramble results of language specific characters on various browsers.
 
-    - The language code was retrieved from the website [IANA Language Subtag Registry, the official registry](https://www.iana.org/assignments/language-subtag-registry/language-subtag-registry) for all subtags available for use in language tags:
+    - The language code was retrieved from the website [IANA Language Subtag Registry, the official registry](https://www.iana.org/assignments/language-subtag-registry/language-subtag-registry) for all subtags available for use in language tags.
  
 ## Technology used
 
@@ -298,6 +298,8 @@ The aspect of web accessibility gradually increased in importance during the dev
 
         ![Excerpt from report on contact.html](/documention/wave-webaim-contact.png)
 
+    - See more on error and warning notifaction in section "Known Bugs", below.
+
 ### Manual Testing
 
 - Responsiveness on all device sizes was achieved by using flexbox.
@@ -339,8 +341,8 @@ The aspect of web accessibility gradually increased in importance during the dev
 - Visibly hide content, which is focusable for keyboard users without using a mouse and detectable for screen readers
     - The following attempts to visibly hide content, yet make focusable and detectable for screen readers are not detected by screen readers:
         - "Display: none;" as suggested in the 
-        - or "visibility: hidden;" and/or line-height: 0;
-    - Resolved with a [CSS style code from WebAim](https://webaim.org/techniques/css/invisiblecontent/)
+        - or "visibility: hidden;" and/or "line-height: 0;"
+    - Resolved with a [CSS style code from WebAim](https://webaim.org/techniques/css/invisiblecontent/).
 
 
 
