@@ -89,7 +89,7 @@ Thank-you-for-your-message page:
 
 ### Existing Features
 
-Interactive elements:
+**Interactive elements**
 
 - Navigation bar 
     - It is identical on all three pages, except that the location of the current page is indicated visibly with an underline, and as visibly hidden text for screen readers only.
@@ -117,6 +117,16 @@ Interactive elements:
     - Contact form is visibly seperated with a decorative boarder.
 
 ![Form](/documention/form-interactive.png)
+
+### General Features of each page
+
+**Homepage**
+
+The homepage includes a brief introduction of the Skaftafell Nature Reserve with basic facts about history, geology, geography, flora, and facilities as well as a link to a map of the area. 
+
+The hiking trail section offers an overview of hiking trails accessible without additional gear. Each trail contains a detailed description, indication of distance and duration, supported with an image depicting a viewpoint from the trail.
+
+
 
 
 
