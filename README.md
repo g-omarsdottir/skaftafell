@@ -6,6 +6,26 @@ Skaftafell is a Nature Reserve located in the south-west of Iceland at the foot 
 
 [View Skaftafell live project here](https://g-omarsdottir.github.io/skaftafell/)
 
+## Table of Contents
+
+### [User Experience (UX)](#user-experience-ux)
+
+### [Design](#design)
+
+### [Features](#features)
+
+### [Accessibility](#accessibility)
+
+### [Technology Used](#technology-used)
+
+### [Testing](#testing)
+
+### [Bugs](#bugs)
+
+### [Deployment and Local Development](#deployment-and-local-development)
+
+### [Credits](#credits)
+
 ## User Experience (UX)
 
 ### Key Information
@@ -57,29 +77,29 @@ Testing results of color contrast check for readability and web accessibility ar
 - Nunita fonts were used for headers. 
 - Fontawesome was used to create a visually clear, minimalistic content and to add a playful touch.
 
-## Imagery
+### Imagery
 - All images were used with the permission of the owners or by a purchased license. The owner is credited in the alternative text for each photo on the website’s gallery page as well as aria-labels on the homepage. All photographers are credited in the credit section. 
 
 - To keep structure and layout separated, the images on the homepage were applied using the CSS stylesheet. The attributes (Role=”img”) and “aria-label” were added. An alternative text was provided for all image elements instead of a title.
 
-## Wireframes
+### Wireframes
 - Wireframes were created for desktops using the website [balsamiq](https://balsamiq.com/?gad_source=1&gclid=Cj0KCQiAtaOtBhCwARIsAN_x-3IqIhBtaldBdPKw1vdzHDLfNzwSUMhR0FZJWFcy9QNYXi6CTAbcnE4aAhhUEALw_wcB).
 
 - The mobile version of the website was developed first and gradually developed towards the wireframes for desktops. Screen sizes smaller than 320 were not considered in the design.
 
-### Wireframe for Homepage: 
+#### Wireframe for Homepage: 
 
 ![Homepage](/documention/wireframe-homepage.png)
 
-### Wireframe for Gallery Page:
+#### Wireframe for Gallery Page:
 
 ![Gallery page](/documention/wireframe-gallery.png)
 
-### Wireframe for Contact Page:
+#### Wireframe for Contact Page:
 
 ![Contact page](/documention/wireframe-contact-page.png)
 
-### Wireframe for Thank-you-for-your-message Page:
+#### Wireframe for Thank-you-for-your-message Page:
 
 ![Thank-you page](/documention/wireframe-thank-you-feedback.png)
 
@@ -93,7 +113,7 @@ Testing results of color contrast check for readability and web accessibility ar
 
 ### Existing Features
 
-**Interactive Elements**
+#### Interactive Elements
 
 - Header
     - The heading element in the header is linked to the homepage on all pages, except the homepage itself, for easy and convenient navigation.
@@ -127,7 +147,7 @@ Testing results of color contrast check for readability and web accessibility ar
 
 ![Form](/documention/form-interactive.png)
 
-### General Features of Each Page
+#### General Features of Each Page
 
 **Homepage**
 
@@ -149,7 +169,7 @@ Testing results of color contrast check for readability and web accessibility ar
 
 ![contact screenshot](/documention/gen-feat-contact.png)
 
-**Thank-you Page** 
+**Thank-you Page**
 
 - Users receive feedback after successfully sending an enquiry or files with a thank-you page displaying a thank you note with a background image of me in Skaftafell. The navigation bar and footer are included on the page for users to return easily to homepage or go on discovering using the social media platforms linked in the footer.
 
@@ -261,7 +281,7 @@ The aspect of web accessibility gradually increased in importance during the dev
 
 ### Validator Testing
 
-- **HTML**
+- #### HTML
     - No errors were detected when passing through the official [World Wide Web Consortium (W3C) validator for HMTL](https://validator.w3.org/) for
     - index.html
 
@@ -276,11 +296,11 @@ The aspect of web accessibility gradually increased in importance during the dev
 
         ![Test results HTML thank-you](/documention/html-validator-thank-you.html.png)
 
-- **CSS** 
+- #### CSS 
     - No errors were detected when passing through the official [World Wide Web Consortium (W3C) Jigsaw validator for CSS](https://jigsaw.w3.org/css-validator/):
         ![Test results CSS](/documention/css-validator.png)
 
-- **Lighthouse Report**
+- #### Lighthouse Report
     - [For desktop](/documention/lighthouse-report-desktop.html):
 
         ![Lighthouse report desktop](/documention/lighthouse-report-desktop.png)
@@ -292,7 +312,7 @@ The aspect of web accessibility gradually increased in importance during the dev
 
         - I do not have the knowledge yet to fix all indicated errors and warnings in the lighthouse report for mobile devices.
 
-- **WAVE Web Accessibility Evaluation Tool**
+- #### WAVE Web Accessibility Evaluation Tool
     - [Link to full report](https://wave.webaim.org/report#/https://g-omarsdottir.github.io/skaftafell/)
 
     - Summary of report:
@@ -318,11 +338,11 @@ The aspect of web accessibility gradually increased in importance during the dev
 - Responsiveness on all device sizes was achieved by using flexbox.
 - Responsiveness was tested manually.
 
-- **Testing User Stories**
+- #### Testing User Stories
     - Manual testing on finalized website was performed by by, friends, and family.
     - No errors were detected.
 
-- **Full Testing**
+- #### Full Testing
     - Test on various browsers (Firefox, Chrome, Opera, Safari, Microsoft Edge) 
     - Test on various devices (including but not limited to iPhone, Nokia, Samsung)
         - Test if links are working - external links, map and Social Media
