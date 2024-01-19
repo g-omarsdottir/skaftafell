@@ -17,23 +17,46 @@ Skaftafell Nature Reserve is located in the south-west of Iceland at the foot of
 
 ## Table of Contents
 
-### [User Experience (UX)](#user-experience-ux)
+### [User Experience (UX)](#user-experience-ux-1)
+- #### [Key Information](#key-information-1)
+- #### [First Time Visitors Goals](#first-time-visitors-goals-1)
+- #### [Returning Visitors Goals](#returning-visitors-goals-1)
+- #### [Frequent Visitor Goals](#frequent-visitor-goals-1)
 
-### [Design](#design)
+### [Design](#design-1)
+- #### [Color Scheme](#color-scheme-1)
+- #### [Color Contrast Check](#color-contrast-check-1)
+- #### [Typography](#typography-1)
+- #### [Imagery](#imagery-1)
+- #### [Wireframes](#wireframes-1)
 
-### [Features](#features)
+### [Features](#features-1)
+- #### [Existing Features](#existing-features-1)
+- ### [Features Left to Implement](#features-left-to-implement-1)
 
-### [Accessibility](#accessibility)
+### [Accessibility](#accessibility-1)
 
-### [Technology Used](#technology-used)
+### [Technology Used](#technology-used-1)
+- #### [Languages Used](#languages-used-1)
+- #### [Frameworks, Libraries, and Programs Used](#frameworks-libraries-and-programs-used-1)
 
-### [Testing](#testing)
+### [Testing](#testing-1)
+- #### [Validator Testing](#validator-testing-1)
+- #### [Manual Testing](#manual-testing-1)
 
-### [Bugs](#bugs)
+### [Bugs](#bugs-1)
+#### [Known Bugs](#known-bugs-1)
+#### [Resolved Bugs](#resolved-bugs-1)
 
-### [Deployment and Local Development](#deployment-and-local-development)
+### [Deployment and Local Development](#deployment-and-local-development-1)
+- #### [Github Pages](#github-pages-1)
+- #### [Local Clone](#local-clone-1)
 
-### [Credits](#credits)
+### [Credits](#credits-1)
+- #### [Content](#content-1)
+- #### [Media](#media-1)
+- #### [Imagery](#imagery-1)
+- #### [Acknowledgements](#acknowledgements-1)
 
 ## User Experience (UX)
 
