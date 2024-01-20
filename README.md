@@ -201,7 +201,7 @@ Testing results of color contrast check for readability and web accessibility ar
 
 ![contact screenshot](/documention/gen-feat-contact.png)
 
-**Thank-you Page**
+**Thank-you Page, Confirmation of Message Received**
 
 - Users receive feedback after successfully sending an enquiry or files with a thank-you page displaying a thank you note with a background image of me in Skaftafell. The navigation bar and footer are included on the page for users to return easily to homepage or go on discovering using the social media platforms linked in the footer.
 
@@ -335,14 +335,47 @@ The aspect of web accessibility gradually increased in importance during the dev
         ![Test results CSS](/documention/css-validator.png)
 
 - #### Lighthouse Report
-    - [For desktop](/documention/lighthouse-report-desktop.html):
+    - Desktop analysis
+        - Homepage (desktop):
 
-        ![Lighthouse report desktop](/documention/lighthouse-report-desktop.png)
+            ![Lighthouse report homepage desktop](/documention/lighthouse-report-homepage-desktop.png)
+
+        - Gallery page (desktop):
+
+            ![Lighthouse report gallery page desktop](/documention/lighthouse-report-gallery-desktop.png)
+
+        - Contact page (desktop): 
+
+            ![Lighthouse report contact page desktop](/documention/lighthouse-report-contact-desktop.png)
+
+        - Thank-you page, confirmation of message received (desktop):
+
+            ![Lighthouse report thank-you page desktop](/documention/lighthouse-report-contact-thank-you-desktop.png)
+
+    - Mobile analysis
+        - Homepage (mobile):
+
+            ![Lighthouse report homepage mobile](/documention/lighthouse-report-homepage-mobile.png)
+
+        - Contact page (mobile): 
+
+            ![Lighthouse report gallery page mobile](/documention/lighthouse-report-gallery-mobile.png)
+
+        - Contact page (mobile)
+
+            ![Lighthouse report contact page mobile](/documention/lighthouse-report-contact-mobile.png)
+
+        - Thank-you page, confirmation of message received (desktop)
+            
+            ![Lighthouse report thank-you page mobile](/documention/lighthouse-report-contact-thank-you-mobile.png)
+        
 
 
-    - [For mobile devices](/documention/lighthouse-report-mobile.html):
 
-        ![Lighthouse report mobile](/documention/lighthouse-report-mobile.png)
+    - Mobile devices analysis:
+        - Homepage
+
+            ![Lighthouse report mobile](/documention/lighthouse-report-homepage-mobile.png)
 
         - I do not have the knowledge yet to fix all indicated errors and warnings in the lighthouse report for mobile devices.
 
